@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="126212596">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.30" value="3" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="czml" value="2" />
+          <entry key="geojson" value="1" />
+          <entry key="html" value="18" />
+          <entry key="js" value="6" />
+          <entry key="json" value="6" />
+          <entry key="png" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="18" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="6" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="21" />
+          <entry key="html" value="1512" />
+          <entry key="js" value="2" />
+          <entry key="json" value="264" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="1512" />
+          <entry key="JSON" value="264" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52233">
+              <caret line="2904" selection-start-line="2904" selection-end-line="2904" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152217">
+              <caret line="60643" column="13" selection-start-line="60643" selection-start-column="7" selection-end-line="60643" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="171" column="36" lean-forward="true" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pla</find>
+      <find>Sandcastle</find>
+      <find>145.391881</find>
+      <find>144.295861</find>
+      <find>144</find>
+      <find>getAirportCoord</find>
+      <find>routes</find>
+      <find>airlines</find>
+      <find>airports</find>
+      <find>Goroka</find>
+      <find>airportsFields</find>
+      <find>airline</find>
+      <find>pointsData</find>
+      <find>ds</find>
+      <find>document</find>
+      <find>createWorldTerrain</find>
+      <find>path</find>
+      <find>globe</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Apps/Data/flights.json" />
+        <option value="$PROJECT_DIR$/Apps/echarts.js" />
+        <option value="$PROJECT_DIR$/delete.html" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/doc-example_mix-timeline-all.html" />
+        <option value="$PROJECT_DIR$/Build/Cesium/Cesium.js" />
+        <option value="$PROJECT_DIR$/Build/Cesium/Widgets/widgets.css" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
+        <option value="$PROJECT_DIR$/Apps/HelloWorld.html" />
+        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ThirdParty/codemirror-4.6/package.json" />
+      <path value="$PROJECT_DIR$/ThirdParty/dojo-release-1.10.4/dijit/package.json" />
+      <path value="$PROJECT_DIR$/ThirdParty/dojo-release-1.10.4/dojo/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="92" />
+    <option name="y" value="67" />
+    <option name="width" value="1485" />
+    <option name="height" value="910" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="SampleData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="SampleData" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="vidioJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Cesium-myX" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\SampleData\models" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1\html" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\TypeJS" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\vidioJS" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="" />
+      <created>1540810640960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540810640960</updated>
+      <workItem from="1540810642358" duration="10388000" />
+      <workItem from="1540897405249" duration="2327000" />
+      <workItem from="1540984051791" duration="5099000" />
+      <workItem from="1541160803099" duration="598000" />
+      <workItem from="1541222685892" duration="1280000" />
+      <workItem from="1541224820051" duration="9914000" />
+      <workItem from="1541312578675" duration="1255000" />
+      <workItem from="1541315356042" duration="8164000" />
+      <workItem from="1541398252061" duration="7580000" />
+      <workItem from="1541415098332" duration="7250000" />
+      <workItem from="1541431566482" duration="601000" />
+      <workItem from="1541432953358" duration="26000" />
+      <workItem from="1541478866121" duration="674000" />
+      <workItem from="1541479873712" duration="9000" />
+      <workItem from="1541488858157" duration="12137000" />
+      <workItem from="1541513762294" duration="1149000" />
+      <workItem from="1541515962322" duration="488000" />
+      <workItem from="1541517599478" duration="1901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70840000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="74" y="54" width="1188" height="728" extended-state="0" />
+    <layout>
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22222222" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.12446959" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/fire.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/simple.czml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Sandcastle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/bucket.css" />
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Sandcastle/images/whiteShapes.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Data/flights.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/simplestyles.geojson">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16720">
+          <caret line="880" column="20" lean-forward="true" selection-start-line="880" selection-start-column="20" selection-end-line="880" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/globe-echarts-gl-hello-world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="91" column="63" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Cesium/Widgets/widgets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="1373" column="1" lean-forward="true" selection-start-line="1373" selection-start-column="1" selection-end-line="1373" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-923">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Cesium/Cesium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="11574" column="17" selection-start-line="11574" selection-start-column="17" selection-end-line="11574" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/doc-example_mix-timeline-all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/echarts1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/TypeJS/printer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/css/t.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152217">
+          <caret line="60643" column="13" selection-start-line="60643" selection-start-column="7" selection-end-line="60643" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52233">
+          <caret line="2904" selection-start-line="2904" selection-end-line="2904" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="171" column="36" lean-forward="true" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
