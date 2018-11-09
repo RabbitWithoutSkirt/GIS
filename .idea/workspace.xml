@@ -64,7 +64,7 @@
           <entry key="html" value="1523" />
           <entry key="js" value="2" />
           <entry key="json" value="461" />
-          <entry key="txt" value="104" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -73,7 +73,7 @@
           <entry key="HTML" value="1523" />
           <entry key="JSON" value="461" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -341,7 +341,7 @@
       <workItem from="1541695179058" duration="949000" />
       <workItem from="1541696222133" duration="146000" />
       <workItem from="1541728421506" duration="75000" />
-      <workItem from="1541753097698" duration="3609000" />
+      <workItem from="1541753097698" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="commit by WebStorm">
       <created>1541600500618</created>
@@ -361,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86051000" />
+    <option name="totallyTimeSpent" value="85794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -397,8 +397,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit by WebStorm" />
     <MESSAGE value="commit by WebStorm except Zhang Qizhong" />
-    <MESSAGE value="echarts done" />
-    <option name="LAST_COMMIT_MESSAGE" value="echarts done" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit by WebStorm except Zhang Qizhong" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
@@ -535,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        <state relative-caret-position="204">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
