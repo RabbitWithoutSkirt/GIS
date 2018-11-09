@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>I'm red backed!</title>
+    <!--Cesium库，以后所有东西都从这个库调用-->
+    <script src="../Build/Cesium/Cesium.js"></script>
+    <!--百度地图库，调用百度地图js-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>-->
+    <!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
+    <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
+    <!--加入视频组件需要的库-->
+    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+
+    <style>
+        /*Cesium的viewer需要的css文件*/
+        @import url(../Build/Cesium/Widgets/widgets.css);
+        @import "./Sandcastle/templates/bucket.css";
+
+        /*视频CSS*/
+        #video1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 325px;
+            height: 200px;
+        }
+
+        /*打字效果CSS*/
+        #window {
+            position: absolute;
+            top: 220px;
+            left: 10px;
+            width: 320px;
+            height: 198px;
+            background-color: black;
+            /*margin: 10px auto;*/
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        #title-bar {
+            width: 320px;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 5px;
+            font-size: 14px;
+            background-color: #eee;
+            font-family: Consolas, serif;
+        }
+
+        #title-bar span:before {
+            content: "\25cf";
+        }
+
+        #title-bar span {
+            font-size: 24px;
+        }
+
+        #close {
+            color: red;
+        }
+
+        #min {
+            color: yellow;
+        }
+
+        #max {
+            color: #00FF00;
+        }
+
+        tilte-title {
+            font-weight: bold;
+        }
+
+        #show-board {
+            width: 320px;
+            height: 198px;
+            background-color: #333;
+            color: #eee;
+            padding: 2.5px;
+        }
+    </style>
+</head>
+<body>
+<!--显示的写出来的东西-->
+<div id="cesiumContainer" class="fullSize"></div>
+<div id="loadingOverlay"><h1>Loading...</h1></div>
+<div id="toolbar"></div>
+
+<div id="window">
+    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    </div>
+    <div id="show-board"></div>
+</div>
+
+<script src="TypeJS/printer.js"></script>
+<script>
+    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
+    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
+    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
+    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    Printer.init(str, {
+        selector: 'show-board',
+        lnStr: 'GIS@Wild goose ~/ # '
+    }).print();
+</script>
+
+
+<video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    Your browser does not support the <code>video</code> element.
+</video>
+
+<script>
+    var czml = [{
+        "id": "document",
+        "name": "CZML Path",
+        "version": "1.0",
+        "clock": {
+            "interval": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+            "currentTime": "2012-08-04T10:00:00Z",
+            "multiplier": 10
+        }
+    }, {
+        "id": "path",
+        "name": "path with GPS flight data",
+        "description": "<p>Hang gliding flight log data from Daniel H. Friedman.<br>Icon created by Larisa Skosyrska from the Noun Project</p>",
+        "availability": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+        "path": {
+            "material": {
+                "polylineOutline": {
+                    "color": {
+                        "rgba": [255, 0, 255, 255]
+                    },
+                    "outlineColor": {
+                        "rgba": [0, 255, 255, 255]
+                    },
+                    "outlineWidth": 5
+                }
+            },
+            "width": 8,
+            "leadTime": 10,
+            "trailTime": 100000,
+            "resolution": 5
+        },
+        // "billboard": {
+        //     "image": "./Sandcastle/images/bumpmap.png",
+        //     "scale": 0.1,
+        //     "eyeOffset": {
+        //         "cartesian": [0.0, 0.0, -10.0]
+        //     }
+        // },
+        "model": {
+            "gltf": "SampleData/models/vulture.glb",
+            "minimumPixelSize": 100,
+            "maximumScale": 1000,
+            "scale": 200
+        },
+        "orientation": {
+            "velocityReference": "#position"
+        },
+        "position": {
+            "epoch": "2012-08-04T10:00:00Z",
+            "cartographicDegrees": [0, -5.578494717, 44.28465727, 0,
+                10, -6.738780109, 46.73724369, 0,
+                20, -5.404998733, 46.99672962, 0,
+                30, -5.952268644, 45.64911892, 0,
+                40, -5.818085213, 43.93741294, 0,
+                50, -5.818085213, 43.93741294, 0,
+                60, -5.137664505, 44.97312899, 0,
+                70, -6.340497177, 45.41746962, 0,
+                80, -5.677236107, 45.27023851, 0,
+                90, -6.27305846, 45.1443473, 0,
+                100, -6.253352715, 45.70257584, 0,
+                110, -6.24333852, 44.95279803, 0,
+                120, -6.243206729, 44.16060984, 0,
+                130, -5.628080584, 44.09249003, 0,
+                140, -7.5231234, 46.99320775, 0,
+                150, -6.303202485, 46.33397164, 0,
+                160, -5.7183951, 46.39974692, 0,
+                170, -5.768658089, 44.01855226, 0,
+                180, -7.07894677, 44.93573143, 0,
+                190, -5.898757156, 45.90043242, 0,
+                200, -5.978218828, 43.19336771, 0,
+                210, -6.066956002, 46.20968061, 0,
+                220, 4.46182864699999, 51.49811207, 0,
+                230, 11.73170146, 47.77088262, 0,
+                240, 17.9932822, 44.68728805, 0,
+                250, 21.62163893, 41.06353549, 0,
+                260, 20.58670234, 37.85165077, 0,
+                270, 21.35513899, 41.18484974, 0,
+                280, 20.58670234, 37.85165077, 0,
+                290, 20.43734572, 39.6232151, 0,
+                300, 25.40826306, 0.354921633, 0,
+                310, 24.67882327, 4.114284501, 0,
+                320, 25.12636315, 0.385245414, 0,
+                330, 25.12636315, 0.385245414, 0,
+                340, 25.67936443, 9.59507143299999, 0,
+                350, 25.49412786, 8.48413190299999, 0,
+                360, 25.57122872, -2.251383025, 0,
+                370, 30.53628679, -2.106837349, 0,
+                380, 31.13922365, 0.448782049, 0,
+                390, 30.50563076, 2.802735246, 0,
+                400, 30.38584129, 6.783427835, 0,
+                410, 31.15503911, 4.809813476, 0,
+                420, 31.8134056, 6.753452536, 0,
+                430, 31.86108429, 2.51749612199999, 0,
+                440, 31.92309433, -1.399257615, 0,
+                450, 31.99939759, -12.08184218, 0,
+                460, 32.21488831, -8.688682847, 0,
+                470, 29.12736947, -15.96422077, 0,
+                480, 31.12712462, -14.09073933, 0,
+                490, 27.5161726, -16.70796735, 0,
+                500, 29.41694121, -18.05369327, 0,
+                510, 27.83074531, -18.80807456, 0,
+                520, 28.63069161, -17.16964707, 0,
+                530, 28.0670018, -18.48872763, 0,
+                540, 28.38838187, -17.98353806, 0,
+                550, 29.09415264, -14.08793994, 0,
+                560, 28.6839008, -17.83202423, 0,
+                570, 30.15582548, -17.66886607, 0,
+                580, 28.51053355, -16.27204769, 0,
+                590, 30.23472671, -16.08725965, 0,
+                600, 30.23472671, -16.08725965, 0,
+                610, 29.97829432, -14.50699685, 0,
+                620, 29.59953652, -18.21904586, 0,
+                630, 32.34623569, -20.5869862, 0,
+                640, 31.34465029, -20.60421742, 0,
+                650, 30.34238119, -20.65013969, 0,
+                660, 31.2126856, -17.10382459, 0,
+                670, 30.70558721, -16.18831462, 0,
+                680, 30.67820693, -17.4509011, 0,
+                690, 30.67820693, -17.4509011, 0,
+                700, 29.65636752, -17.61943385, 0,
+                710, 29.87719783, -20.3273716, 0,
+                720, 30.09018087, -15.39885511, 0,
+                730, 29.86441422, -17.23847776, 0,
+                740, 29.86441422, -17.23847776, 0,
+                750, 30.67379007, -16.15275674, 0,
+                760, 30.22256436, -17.86538497, 0,
+                770, 31.00952858, -19.62163867, 0,
+                780, 29.90983598, -20.04206251, 0,
+                790, 30.04735783, -17.5844709, 0,
+                800, 30.17198253, -14.91664402, 0,
+                810, 29.65849464, -16.94589596, 0,
+                820, 30.38137673, -12.38602078, 0,
+                830, 29.84081816, -14.56587446, 0,
+                840, 30.53643253, -16.83872617, 0,
+                850, 31.21835826, -15.608254, 0,
+                860, 30.63671565, -18.08202306, 0,
+                870, 30.66648309, -10.71243481, 0,
+                880, 31.18289492, -17.9746748, 0,
+                890, 31.18620124, -18.77280017, 0,
+                900, 30.05166298, -19.21958233, 0,
+                910, 30.02965902, -15.50074382, 0,
+                920, 30.49561671, -19.32784864, 0,
+                930, 30.44992666, -20.4204468, 0,
+                940, 31.64319727, -10.16464441, 0,
+                950, 30.45064757, -16.66200666, 0,
+                960, 30.99819452, -21.01609181, 0,
+                970, 34.17194487, -16.82785753, 0,
+                980, 35.17241613, 0.354708053, 0,
+                990, 35.06574957, -6.907142285, 0,
+                1000, 35.06574957, -6.907142285, 0,
+                1010, 36.2099239, -0.418797448, 0,
+                1020, 41.6117905, 8.40504710599999, 0,
+                1030, 39.89524445, 0.09254405, 0,
+                1040, 41.56204282, 7.05988127799999, 0,
+                1050, 43.23708947, 0.015249366, 0,
+                1060, 41.42037808, 1.84106049099999, 0,
+                1070, 40.11260167, 6.11866765799999, 0,
+                1080, 42.56416718, 9.95313096499999, 0,
+                1090, 41.89978024, 11.50973417, 0,
+                1100, 41.86983032, 7.347473527, 0,
+                1110, 44.34941195, 14.28848135, 0,
+                1120, 43.71341879, 21.81930046, 0,
+                1130, 48.83691631, 34.22246732, 0,
+                1140, 44.96988368, 33.3482744, 0,
+                1150, 39.36231798, 35.80868912, 0,
+                1160, 31.88911934, 33.21442861, 0,
+                1170, 25.6749422, 32.681539, 0,
+                1180, 21.34440103, 40.26655749, 0,
+                1190, 16.39728957, 44.08926345, 0,
+                1200, 11.45817368, 43.64347991, 0,
+                1210, 0.902159724999999, 38.14364652, 0,
+                1220, 0.977123451999999, 43.51357868, 0,
+                1230, -4.065910772, 40.62090636, 0,
+                1240, -4.978573667, 44.25058829, 0,
+                1250, -6.260987336, 43.8729816, 0,
+                1260, -6.78896646, 45.39255096, 0,
+                1270, -6.063288572, 45.75774744, 0,
+                1280, -5.334508396, 45.05967846, 0,
+                1290, -5.853183185, 45.49586744, 0,
+                1300, -6.995160612, 45.41776424, 0,
+                1310, -5.011784507, 43.67984788, 0,
+                1320, -4.278179103, 44.25259195, 0,
+                1330, -1.045690278, 38.44566608, 0,
+                1340, -4.688704245, 42.55350954, 0,
+                1350, -5.709419822, 45.11693167, 0,
+                1360, -5.108435895, 44.57417759, 0,
+                1370, -6.261024071, 43.56676764, 0,
+                1380, -5.543390252, 44.36684789, 0,
+
+
+            ]
+        }
+    }];
+
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+        terrainProvider: Cesium.createWorldTerrain(),
+        baseLayerPicker: false,
+        shouldAnimate: true
+    });
+
+    viewer.dataSources.add(Cesium.CzmlDataSource.load(czml)).then(function (ds) {
+        viewer.trackedEntity = ds.entities.getById('path');
+    });
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>I'm hard shelled turtle!</title>
+    <!--Cesium库，以后所有东西都从这个库调用-->
+    <script src="../Build/Cesium/Cesium.js"></script>
+    <!--百度地图库，调用百度地图js-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>-->
+    <!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
+    <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
+    <!--加入视频组件需要的库-->
+    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+
+    <style>
+        /*Cesium的viewer需要的css文件*/
+        @import url(../Build/Cesium/Widgets/widgets.css);
+        @import "./Sandcastle/templates/bucket.css";
+
+        /*视频CSS*/
+        #video1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 325px;
+            height: 200px;
+        }
+
+        /*打字效果CSS*/
+        #window {
+            position: absolute;
+            top: 220px;
+            left: 10px;
+            width: 320px;
+            height: 198px;
+            background-color: black;
+            /*margin: 10px auto;*/
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        #title-bar {
+            width: 320px;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 5px;
+            font-size: 14px;
+            background-color: #eee;
+            font-family: Consolas, serif;
+        }
+
+        #title-bar span:before {
+            content: "\25cf";
+        }
+
+        #title-bar span {
+            font-size: 24px;
+        }
+
+        #close {
+            color: red;
+        }
+
+        #min {
+            color: yellow;
+        }
+
+        #max {
+            color: #00FF00;
+        }
+
+        tilte-title {
+            font-weight: bold;
+        }
+
+        #show-board {
+            width: 320px;
+            height: 198px;
+            background-color: #333;
+            color: #eee;
+            padding: 2.5px;
+        }
+    </style>
+</head>
+<body>
+<!--显示的写出来的东西-->
+<div id="cesiumContainer" class="fullSize"></div>
+<div id="loadingOverlay"><h1>Loading...</h1></div>
+<div id="toolbar"></div>
+
+<div id="window">
+    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    </div>
+    <div id="show-board"></div>
+</div>
+
+<script src="TypeJS/printer.js"></script>
+<script>
+    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
+    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
+    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
+    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    Printer.init(str, {
+        selector: 'show-board',
+        lnStr: 'GIS@Wild goose ~/ # '
+    }).print();
+</script>
+
+
+<video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    Your browser does not support the <code>video</code> element.
+</video>
+
+<script>
+    var czml = [{
+        "id": "document",
+        "name": "CZML Path",
+        "version": "1.0",
+        "clock": {
+            "interval": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+            "currentTime": "2012-08-04T10:00:00Z",
+            "multiplier": 10
+        }
+    }, {
+        "id": "path",
+        "name": "path with GPS flight data",
+        "description": "<p>Hang gliding flight log data from Daniel H. Friedman.<br>Icon created by Larisa Skosyrska from the Noun Project</p>",
+        "availability": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+        "path": {
+            "material": {
+                "polylineOutline": {
+                    "color": {
+                        "rgba": [255, 0, 255, 255]
+                    },
+                    "outlineColor": {
+                        "rgba": [0, 255, 255, 255]
+                    },
+                    "outlineWidth": 5
+                }
+            },
+            "width": 8,
+            "leadTime": 10,
+            "trailTime": 100000,
+            "resolution": 5
+        },
+        // "billboard": {
+        //     "image": "./Sandcastle/images/bumpmap.png",
+        //     "scale": 0.1,
+        //     "eyeOffset": {
+        //         "cartesian": [0.0, 0.0, -10.0]
+        //     }
+        // },
+        "model": {
+            "gltf": "SampleData/models/vulture.glb",
+            "minimumPixelSize": 100,
+            "maximumScale": 1000,
+            "scale": 200
+        },
+        "orientation": {
+            "velocityReference": "#position"
+        },
+        "position": {
+            "epoch": "2012-08-04T10:00:00Z",
+            "cartographicDegrees": [0, 151.20619, -11.14371, 0,
+                10, 151.20619, -11.14371, 0,
+                20, 151.20918, -11.13649, 0,
+                30, 151.20105, -11.12826, 0,
+                40, 151.26722, -11.16524, 0,
+                50, 151.267, -11.165, 0,
+                60, 151.26722, -11.16524, 0,
+                70, 151.26722, -11.16524, 0,
+                80, 151.26722, -11.16524, 0,
+                90, 151.30121, -11.17517, 0,
+                100, 151.30121, -11.17517, 0,
+                110, 151.30752, -11.17604, 0,
+                120, 151.28291, -11.15769, 0,
+                130, 151.28587, -11.15545, 0,
+                140, 151.469, -11.108, 0,
+                150, 151.46458, -11.10549, 0,
+                160, 151.46458, -11.10549, 0,
+                170, 151.54627, -11.10929, 0,
+                180, 151.54627, -11.10929, 0,
+                190, 151.54627, -11.10929, 0,
+                200, 151.64992, -11.10753, 0,
+                210, 151.54116, -11.12765, 0,
+                220, 151.54116, -11.12765, 0,
+                230, 151.50619, -11.11914, 0,
+                240, 151.50619, -11.11914, 0,
+                250, 151.55727, -11.12033, 0,
+                260, 151.55727, -11.12033, 0,
+                270, 151.54291, -11.12176, 0,
+                280, 151.52907, -11.11564, 0,
+                290, 151.52907, -11.11564, 0,
+                300, 151.49955, -11.13288, 0,
+                310, 151.48441, -11.12148, 0,
+                320, 151.48441, -11.12148, 0,
+                330, 151.48427, -11.10918, 0,
+                340, 151.48388, -11.12751, 0,
+                350, 151.48388, -11.12751, 0,
+                360, 151.48388, -11.12751, 0,
+                370, 151.48388, -11.12751, 0,
+                380, 151.48886, -11.14902, 0,
+                390, 151.48886, -11.14902, 0,
+                400, 151.44559, -11.14067, 0,
+                410, 151.41676, -11.12487, 0,
+                420, 151.51156, -11.14172, 0,
+                430, 151.51156, -11.14172, 0,
+                440, 151.44259, -11.13577, 0,
+                450, 151.47174, -11.14357, 0,
+                460, 151.50214, -11.15487, 0,
+                470, 151.50299, -11.14931, 0,
+                480, 151.50299, -11.14931, 0,
+                490, 151.50073, -11.15347, 0,
+                500, 151.50073, -11.15347, 0,
+                510, 151.49377, -11.14688, 0,
+                520, 151.51508, -11.1475, 0,
+                530, 151.51508, -11.1475, 0,
+                540, 151.52691, -11.1453, 0,
+                550, 151.55722, -11.15255, 0,
+                560, 151.55118, -11.16176, 0,
+                570, 151.519, -11.17241, 0,
+                580, 151.519, -11.17241, 0,
+                590, 151.519, -11.17241, 0,
+                600, 151.52787, -11.15854, 0,
+                610, 151.52391, -11.1578, 0,
+                620, 151.52284, -11.15581, 0,
+                630, 151.52191, -11.1543, 0,
+                640, 151.52077, -11.17124, 0,
+                650, 151.52565, -11.17521, 0,
+                660, 151.55005, -11.20068, 0,
+                670, 151.54149, -11.18745, 0,
+                680, 151.54477, -11.156, 0,
+                690, 151.58291, -11.16169, 0,
+                700, 151.56974, -11.16564, 0,
+                710, 151.345, -11.21918, 0,
+                720, 151.345, -11.21918, 0,
+                730, 151.345, -11.21918, 0,
+                740, 151.23834, -11.2348, 0,
+                750, 151.279, -11.244, 0,
+                760, 151.23834, -11.2348, 0,
+                770, 151.27538, -11.24472, 0,
+                780, 151.27923, -11.24392, 0,
+                790, 151.1986, -11.28121, 0,
+                800, 151.1986, -11.28121, 0,
+                810, 151.1986, -11.28121, 0,
+                820, 151.16327, -11.28461, 0,
+                830, 151.16327, -11.28461, 0,
+                840, 151.163, -11.285, 0,
+                850, 151.16327, -11.28461, 0,
+                860, 150.85077, -11.36605, 0,
+                870, 151.31168, -11.22993, 0,
+                880, 151.0604, -11.23257, 0,
+                890, 151.0604, -11.23257, 0,
+                900, 151.0604, -11.23257, 0,
+                910, 151.06903, -11.22618, 0,
+                920, 151.06903, -11.22618, 0,
+                930, 151.06903, -11.22618, 0,
+                940, 151.07336, -11.22804, 0,
+                950, 151.12302, -11.20949, 0,
+                960, 151.13956, -11.10834, 0,
+                970, 151.13956, -11.10834, 0,
+                980, 151.12878, -11.09048, 0,
+                990, 151.13697, -11.08739, 0,
+                1000, 151.17373, -11.14185, 0,
+                1010, 151.17373, -11.14185, 0,
+                1020, 151.17373, -11.14185, 0,
+                1030, 151.174, -11.142, 0,
+                1040, 151.17373, -11.14185, 0,
+                1050, 151.17373, -11.14185, 0,
+                1060, 151.16234, -11.19933, 0,
+                1070, 151.16234, -11.19933, 0,
+                1080, 151.16421, -11.20439, 0,
+                1090, 151.19571, -11.21784, 0,
+                1100, 151.19571, -11.21784, 0,
+                1110, 151.19571, -11.21784, 0,
+                1120, 151.19571, -11.21784, 0,
+                1130, 151.20685, -11.21474, 0,
+                1140, 151.20685, -11.21474, 0,
+                1150, 151.20685, -11.21474, 0,
+                1160, 151.20413, -11.23486, 0,
+                1170, 151.20486, -11.24131, 0,
+                1180, 151.25669, -11.29993, 0,
+                1190, 151.25669, -11.29993, 0,
+                1200, 151.218, -11.276, 0,
+                1210, 151.21426, -11.28382, 0,
+                1220, 151.21426, -11.28382, 0,
+                1230, 151.21841, -11.28196, 0,
+                1240, 151.21841, -11.28196, 0,
+                1250, 151.21841, -11.28196, 0,
+                1260, 151.22264, -11.28729, 0,
+                1270, 151.22699, -11.29181, 0,
+                1280, 151.22699, -11.29181, 0,
+                1290, 151.227, -11.206, 0,
+                1300, 151.25561, -11.20054, 0,
+                1310, 151.25561, -11.20054, 0,
+                1320, 151.25561, -11.20054, 0,
+                1330, 151.26259, -11.19843, 0,
+                1340, 151.25478, -11.19912, 0,
+                1350, 151.34734, -11.19858, 0,
+                1360, 151.26882, -11.15293, 0,
+                1370, 151.26882, -11.15293, 0,
+                1380, 151.25568, -11.14503, 0,
+                1390, 151.25568, -11.14503, 0,
+                1400, 151.25568, -11.14503, 0,
+                1410, 151.258, -11.144, 0,
+                1420, 151.26236, -11.14295, 0,
+                1430, 151.26236, -11.14295, 0,
+                1440, 151.27515, -11.13896, 0,
+                1450, 151.28449, -11.15599, 0,
+                1460, 151.28449, -11.15599, 0,
+                1470, 151.31016, -11.15493, 0,
+                1480, 151.31169, -11.17699, 0,
+                1490, 151.3214, -11.18509, 0,
+                1500, 151.30884, -11.18067, 0,
+                1510, 151.27738, -11.15419, 0,
+                1520, 151.2626, -11.13464, 0,
+                1530, 151.25757, -11.14823, 0,
+                1540, 151.25648, -11.14334, 0,
+                1550, 151.25648, -11.14334, 0,
+                1560, 151.28999, -11.15748, 0,
+                1570, 151.265, -11.145, 0,
+                1580, 151.267, -11.142, 0,
+                1590, 151.251, -11.142, 0,
+                1600, 151.252, -11.149, 0,
+                1610, 151.254, -11.145, 0,
+                1620, 151.259, -11.147, 0,
+                1630, 151.257, -11.146, 0,
+                1640, 151.258, -11.148, 0,
+                1650, 149.919, -15.475, 0,
+                1660, 149.529, -15.913, 0,
+                1670, 149.273, -16.316, 0,
+                1680, 149.215, -16.449, 0,
+                1690, 149.214, -16.485, 0,
+                1700, 148.63, -17.578, 0,
+                1710, 148.476, -17.743, 0,
+                1720, 148.475, -17.746, 0,
+                1730, 148.468, -17.784, 0,
+                1740, 148.431, -18.988, 0,
+                1750, 148.409, -19.247, 0,
+                1760, 149.046, -19.579, 0,
+                1770, 150.042, -20.236, 0,
+                1780, 150.034, -20.251, 0,
+                1790, 150.03, -20.241, 0,
+                1800, 150.029, -20.243, 0,
+                1810, 150.026, -20.245, 0,
+                1820, 150.043, -20.264, 0,
+                1830, 150.029, -20.249, 0,
+                1840, 150.033, -20.237, 0,
+                1850, 150.024, -20.246, 0,
+                1860, 150.022, -20.244, 0,
+                1870, 150.033, -20.261, 0,
+            ]
+        }
+    }];
+
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+        terrainProvider: Cesium.createWorldTerrain(),
+        baseLayerPicker: false,
+        shouldAnimate: true
+    });
+
+    viewer.dataSources.add(Cesium.CzmlDataSource.load(czml)).then(function (ds) {
+        viewer.trackedEntity = ds.entities.getById('path');
+    });
+
+
+</script>
+
+</body>
+</html>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="">
+    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="three animals done">
+      <change afterPath="$PROJECT_DIR$/Apps/SampleData/try1.czml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/SampleData/try2.czml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/red-backed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/try_two.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/HelloWorld.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/echarts1/html/flights.json" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/echarts1/html/flights.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +24,7 @@
     <session id="126212596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -27,22 +33,22 @@
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="czml" value="2" />
+          <entry key="czml" value="5" />
           <entry key="geojson" value="1" />
-          <entry key="html" value="18" />
+          <entry key="html" value="21" />
           <entry key="js" value="6" />
           <entry key="json" value="6" />
           <entry key="png" value="2" />
@@ -51,29 +57,30 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="18" />
+          <entry key="HTML" value="21" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="21" />
-          <entry key="html" value="1523" />
+          <entry key="czml" value="7" />
+          <entry key="html" value="1673" />
           <entry key="js" value="2" />
           <entry key="json" value="461" />
-          <entry key="txt" value="79" />
+          <entry key="txt" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="21" />
-          <entry key="HTML" value="1523" />
+          <entry key="HTML" value="1673" />
           <entry key="JSON" value="461" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="PLAIN_TEXT" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -88,8 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="2857" column="49" lean-forward="true" selection-start-line="2857" selection-start-column="49" selection-end-line="2857" selection-end-column="49" />
+            <state relative-caret-position="-1843">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="e#6167#143191#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +107,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="109">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="366" column="39" lean-forward="true" selection-start-line="366" selection-start-column="39" selection-end-line="366" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/red-backed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="168" column="13" lean-forward="true" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -106,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="68787" column="10" lean-forward="true" selection-start-line="68787" selection-start-column="10" selection-end-line="68787" selection-end-column="10" />
+            <state relative-caret-position="140">
+              <caret line="69329" column="5" lean-forward="true" selection-start-line="69329" selection-start-column="5" selection-end-line="69329" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="-3370">
+              <caret line="180" column="35" lean-forward="true" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -147,11 +175,12 @@
       <find>pointsData</find>
       <find>ds</find>
       <find>document</find>
-      <find>createWorldTerrain</find>
       <find>path</find>
       <find>globe</find>
       <find>-13.264</find>
       <find>routes</find>
+      <find>statusDisplay</find>
+      <find>createWorldTerrain</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,9 +201,14 @@
         <option value="$PROJECT_DIR$/Build/Cesium/Cesium.js" />
         <option value="$PROJECT_DIR$/Build/Cesium/Widgets/widgets.css" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
-        <option value="$PROJECT_DIR$/Apps/HelloWorld.html" />
-        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
+        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
+        <option value="$PROJECT_DIR$/Apps/try_two.html" />
+        <option value="$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml" />
+        <option value="$PROJECT_DIR$/Apps/SampleData/try1.czml" />
+        <option value="$PROJECT_DIR$/Apps/HelloWorld.html" />
+        <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
+        <option value="$PROJECT_DIR$/Apps/red-backed.html" />
       </list>
     </option>
   </component>
@@ -209,10 +243,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="331" />
-    <option name="y" value="107" />
+    <option name="x" value="267" />
+    <option name="y" value="-15" />
     <option name="width" value="1485" />
-    <option name="height" value="910" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,19 +280,6 @@
               <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
               <item name="Apps" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts1" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -282,15 +303,15 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\SampleData" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\SampleData\models" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1\html" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\TypeJS" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\vidioJS" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,7 +362,8 @@
       <workItem from="1541695179058" duration="949000" />
       <workItem from="1541696222133" duration="146000" />
       <workItem from="1541728421506" duration="75000" />
-      <workItem from="1541753097698" duration="3352000" />
+      <workItem from="1541753097698" duration="3820000" />
+      <workItem from="1541763884579" duration="7893000" />
     </task>
     <task id="LOCAL-00001" summary="commit by WebStorm">
       <created>1541600500618</created>
@@ -357,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541696126761</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="echarts done">
+      <created>1541757084422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541757084422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85794000" />
+    <option name="totallyTimeSpent" value="94155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -369,9 +398,10 @@
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22192867" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22192867" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -397,7 +427,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit by WebStorm" />
     <MESSAGE value="commit by WebStorm except Zhang Qizhong" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit by WebStorm except Zhang Qizhong" />
+    <MESSAGE value="echarts done" />
+    <MESSAGE value="three animals done" />
+    <option name="LAST_COMMIT_MESSAGE" value="three animals done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
@@ -417,13 +449,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/bucket.css" />
-    <entry file="file://$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="98" column="45" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/Sandcastle/images/whiteShapes.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -518,31 +543,72 @@
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/css/t.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="2857" column="49" lean-forward="true" selection-start-line="2857" selection-start-column="49" selection-end-line="2857" selection-end-column="49" />
+        <state relative-caret-position="114">
+          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+    <entry file="file://$PROJECT_DIR$/Apps/try_two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="127" column="14" lean-forward="true" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/try1.czml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/SampleData/try2.czml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#6167#143191#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="109">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/red-backed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="168" column="13" lean-forward="true" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3370">
+          <caret line="180" column="35" lean-forward="true" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="366" column="39" lean-forward="true" selection-start-line="366" selection-start-column="39" selection-end-line="366" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="68787" column="10" lean-forward="true" selection-start-line="68787" selection-start-column="10" selection-end-line="68787" selection-end-column="10" />
+        <state relative-caret-position="140">
+          <caret line="69329" column="5" lean-forward="true" selection-start-line="69329" selection-start-column="5" selection-end-line="69329" selection-end-column="5" />
         </state>
       </provider>
     </entry>
