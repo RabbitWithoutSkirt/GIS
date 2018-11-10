@@ -22,10 +22,10 @@
     var app = {};
     option = null;
     var pic = "../data-gl/asset/world.200409.3x5400x2700.jpg";
-
-
+    var d;
 
     $.getJSON('./flights.json', function (data) {
+        d = data;
         var airports = data.airports.map(function (item) {
             return {
                 coord: [item[3], item[4]]
@@ -98,48 +98,99 @@
             data: pointsData
         });
 
-        window.setInterval(function () {
-            // myChart.setOption(option.globe, true);
-        })
 
         // var airlines = data.airlines[data.routes[0]];
         // var url = series[2];
-        myChart.setOption({
-            legend: {
-                selectedMode: 'single',
-                left: 'left',
-                data: Object.keys(routesGroupByAirline),
-                orient: 'vertical',
-                textStyle: {
-                    color: '#fff'
-                }
-            },
-            globe: {
-                baseTexture: pic,
-                heightTexture: pic,
-                displacementScale: 0.04,
-                shading: 'realistic',
-                environment: '../data-gl/asset/starfield.jpg',
-                realisticMaterial: {
-                    roughness: 0.9
-                },
-                postEffect: {
-                    enable: true
-                },
-                light: {
-                    main: {
-                        intensity: 5,
-                        shadow: true
-                    },
-                    ambientCubemap: {
-                        texture: '../data-gl/asset/pisa.hdr',
-                        diffuseIntensity: 0.2
+        option = {
+            baseOption: {
+                legend: {
+                    selectedMode: 'single',
+                    left: 'left',
+                    data: Object.keys(routesGroupByAirline),
+                    orient: 'vertical',
+                    textStyle: {
+                        color: '#fff'
                     }
-                }
-
+                },
+                // timeline: {
+                //     axisType: 'category',
+                //     orient: 'vertical',
+                //     autoPlay: true,
+                //     inverse: true,
+                //     playInterval: 1000,
+                //     left: null,
+                //     right: 0,
+                //     top: 20,
+                //     bottom: 20,
+                //     width: 55,
+                //     height: null,
+                //     label: {
+                //         normal: {
+                //             textStyle: {
+                //                 color: '#999'
+                //             }
+                //         },
+                //         emphasis: {
+                //             textStyle: {
+                //                 color: '#fff'
+                //             }
+                //         }
+                //     },
+                //     symbol: 'none',
+                //     lineStyle: {
+                //         color: '#555'
+                //     },
+                //     checkpointStyle: {
+                //         color: '#bbb',
+                //         borderColor: '#777',
+                //         borderWidth: 2
+                //     },
+                //     controlStyle: {
+                //         showNextBtn: false,
+                //         showPrevBtn: false,
+                //         normal: {
+                //             color: '#666',
+                //             borderColor: '#666'
+                //         },
+                //         emphasis: {
+                //             color: '#aaa',
+                //             borderColor: '#aaa'
+                //         }
+                //     },
+                //     data: []
+                // },
+                globe: {
+                    baseTexture: pic,
+                    heightTexture: pic,
+                    displacementScale: 0.04,
+                    shading: 'realistic',
+                    environment: '../data-gl/asset/starfield.jpg',
+                    realisticMaterial: {
+                        roughness: 0.9
+                    },
+                    postEffect: {
+                        enable: true,
+                        bloom: {
+                            enable: true,
+                            bloomIntensity: 0.5
+                        }
+                    },
+                    light: {
+                        main: {
+                            intensity: 5,
+                            shadow: true
+                        },
+                        ambientCubemap: {
+                            texture: '../data-gl/asset/pisa.hdr',
+                            diffuseIntensity: 0.2
+                        }
+                    }
+                },
+                series: series
             },
-            series: series
-        });
+            options: []
+        };
+
         window.addEventListener('keydown', function () {
             series.forEach(function (series, idx) {
                 myChart.dispatchAction({
@@ -148,11 +199,25 @@
                 });
             })
         });
+
+
+        myChart.setOption(option);
+
+        // var n = 2;
+        // setInterval(function () {
+        //     n = n % 2;
+        //     pic = d.pic[n];
+        //     myChart.setOption(option.globe, true);
+        //     n = n + 1;
+        // }, 10000)
     });
+
 
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
     }
+
+
 </script>
 </body>
 </html>
