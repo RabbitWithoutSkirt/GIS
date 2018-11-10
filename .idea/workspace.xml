@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Apps/barnacle_geese.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/common-mergansers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/swainsonLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/white-fronted-goose.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,7 +21,7 @@
     <session id="126212596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -31,10 +35,11 @@
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +47,7 @@
           <entry key="css" value="4" />
           <entry key="czml" value="5" />
           <entry key="geojson" value="1" />
-          <entry key="html" value="21" />
+          <entry key="html" value="25" />
           <entry key="js" value="6" />
           <entry key="json" value="7" />
           <entry key="png" value="2" />
@@ -51,7 +56,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="25" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="6" />
@@ -62,19 +67,19 @@
         <counts>
           <entry key="css" value="21" />
           <entry key="czml" value="7" />
-          <entry key="html" value="1673" />
+          <entry key="html" value="1760" />
           <entry key="js" value="2" />
-          <entry key="json" value="461" />
-          <entry key="txt" value="139" />
+          <entry key="json" value="479" />
+          <entry key="txt" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="21" />
-          <entry key="HTML" value="1673" />
-          <entry key="JSON" value="461" />
+          <entry key="HTML" value="1760" />
+          <entry key="JSON" value="479" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="146" />
+          <entry key="PLAIN_TEXT" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -89,8 +94,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="444">
+              <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/swainsonLine.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="175" column="16" lean-forward="true" selection-end-line="274" />
+              <folding>
+                <element signature="e#3670#3676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/barnacle_geese.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="178" column="21" lean-forward="true" selection-end-line="222" />
+              <folding>
+                <element signature="e#3663#3669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/common-mergansers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="212" column="40" lean-forward="true" selection-end-line="237" />
+              <folding>
+                <element signature="e#3669#3675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apps/white-fronted-goose.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="244" column="39" lean-forward="true" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
+              <folding>
+                <element signature="e#3672#3678#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,17 +151,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6954">
+            <state relative-caret-position="140">
               <caret line="366" column="39" selection-start-line="366" selection-start-column="39" selection-end-line="366" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="69323" column="6" lean-forward="true" selection-start-line="69323" selection-start-column="6" selection-end-line="69323" selection-end-column="6" />
+            <state relative-caret-position="1299372">
+              <caret line="68388" column="15" selection-start-line="68388" selection-start-column="15" selection-end-line="68388" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -116,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/red-backed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
+            <state relative-caret-position="497">
               <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
             </state>
           </provider>
@@ -125,8 +178,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
-              <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
+            <state relative-caret-position="19">
+              <caret line="180" column="35" selection-end-line="388" />
+              <folding>
+                <element signature="e#3670#3676#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +219,7 @@
       <find>routes</find>
       <find>statusDisplay</find>
       <find>createWorldTerrain</find>
+      <find>option</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,15 +239,19 @@
         <option value="$PROJECT_DIR$/Apps/echarts1/doc-example_mix-timeline-all.html" />
         <option value="$PROJECT_DIR$/Build/Cesium/Cesium.js" />
         <option value="$PROJECT_DIR$/Build/Cesium/Widgets/widgets.css" />
-        <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
-        <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
-        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
         <option value="$PROJECT_DIR$/Apps/try_two.html" />
         <option value="$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml" />
         <option value="$PROJECT_DIR$/Apps/SampleData/try1.czml" />
         <option value="$PROJECT_DIR$/Apps/HelloWorld.html" />
         <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
         <option value="$PROJECT_DIR$/Apps/red-backed.html" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
+        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
+        <option value="$PROJECT_DIR$/Apps/swainsonLine.html" />
+        <option value="$PROJECT_DIR$/Apps/barnacle_geese.html" />
+        <option value="$PROJECT_DIR$/Apps/common-mergansers.html" />
+        <option value="$PROJECT_DIR$/Apps/white-fronted-goose.html" />
       </list>
     </option>
   </component>
@@ -225,10 +286,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="165" />
-    <option name="y" value="37" />
+    <option name="x" value="220" />
+    <option name="y" value="107" />
     <option name="width" value="1485" />
-    <option name="height" value="900" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -262,19 +323,6 @@
               <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
               <item name="Apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts1" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,7 +407,8 @@
       <workItem from="1541728421506" duration="75000" />
       <workItem from="1541753097698" duration="3820000" />
       <workItem from="1541763884579" duration="7948000" />
-      <workItem from="1541779201203" duration="364000" />
+      <workItem from="1541779201203" duration="2760000" />
+      <workItem from="1541808805281" duration="4827000" />
     </task>
     <task id="LOCAL-00001" summary="commit by WebStorm">
       <created>1541600500618</created>
@@ -389,11 +438,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541772223935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="three animals done">
+      <created>1541779580645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541779580645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="three animals and echarts done">
+      <created>1541783521139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541783521140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94574000" />
+    <option name="totallyTimeSpent" value="101797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -401,7 +464,7 @@
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22192867" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.168428" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -415,7 +478,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,7 +495,8 @@
     <MESSAGE value="commit by WebStorm except Zhang Qizhong" />
     <MESSAGE value="echarts done" />
     <MESSAGE value="three animals done" />
-    <option name="LAST_COMMIT_MESSAGE" value="three animals done" />
+    <MESSAGE value="three animals and echarts done" />
+    <option name="LAST_COMMIT_MESSAGE" value="three animals and echarts done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
@@ -579,36 +643,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6954">
-          <caret line="366" column="39" selection-start-line="366" selection-start-column="39" selection-end-line="366" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/red-backed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
+        <state relative-caret-position="444">
+          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="69323" column="6" lean-forward="true" selection-start-line="69323" selection-start-column="6" selection-end-line="69323" selection-end-column="6" />
+        <state relative-caret-position="1299372">
+          <caret line="68388" column="15" selection-start-line="68388" selection-start-column="15" selection-end-line="68388" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/red-backed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="366" column="39" selection-start-line="366" selection-start-column="39" selection-end-line="366" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="180" column="35" selection-end-line="388" />
+          <folding>
+            <element signature="e#3670#3676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/swainsonLine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="175" column="16" lean-forward="true" selection-end-line="274" />
+          <folding>
+            <element signature="e#3670#3676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/barnacle_geese.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="178" column="21" lean-forward="true" selection-end-line="222" />
+          <folding>
+            <element signature="e#3663#3669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/common-mergansers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="212" column="40" lean-forward="true" selection-end-line="237" />
+          <folding>
+            <element signature="e#3669#3675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/white-fronted-goose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="244" column="39" lean-forward="true" selection-start-line="244" selection-start-column="39" selection-end-line="244" selection-end-column="39" />
+          <folding>
+            <element signature="e#3672#3678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

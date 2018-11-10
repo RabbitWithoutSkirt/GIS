@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>I'm common-mergansers!</title>
+    <!--Cesium库，以后所有东西都从这个库调用-->
+    <script src="../Build/Cesium/Cesium.js"></script>
+    <!--百度地图库，调用百度地图js-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>-->
+    <!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
+    <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
+    <!--加入视频组件需要的库-->
+    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+
+    <style>
+        /*Cesium的viewer需要的css文件*/
+        @import url(../Build/Cesium/Widgets/widgets.css);
+        @import "./Sandcastle/templates/bucket.css";
+
+        /*视频CSS*/
+        #video1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 325px;
+            height: 200px;
+        }
+
+        /*打字效果CSS*/
+        #window {
+            position: absolute;
+            top: 220px;
+            left: 10px;
+            width: 320px;
+            height: 198px;
+            background-color: black;
+            /*margin: 10px auto;*/
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        #title-bar {
+            width: 320px;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 5px;
+            font-size: 14px;
+            background-color: #eee;
+            font-family: Consolas, serif;
+        }
+
+        #title-bar span:before {
+            content: "\25cf";
+        }
+
+        #title-bar span {
+            font-size: 24px;
+        }
+
+        #close {
+            color: red;
+        }
+
+        #min {
+            color: yellow;
+        }
+
+        #max {
+            color: #00FF00;
+        }
+
+        tilte-title {
+            font-weight: bold;
+        }
+
+        #show-board {
+            width: 320px;
+            height: 198px;
+            background-color: #333;
+            color: #eee;
+            padding: 2.5px;
+        }
+    </style>
+</head>
+<body>
+<!--显示的写出来的东西-->
+<div id="cesiumContainer" class="fullSize"></div>
+<div id="loadingOverlay"><h1>Loading...</h1></div>
+<div id="toolbar"></div>
+
+<div id="window">
+    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    </div>
+    <div id="show-board"></div>
+</div>
+
+<script src="TypeJS/printer.js"></script>
+<script>
+    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
+    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
+    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
+    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    Printer.init(str, {
+        selector: 'show-board',
+        lnStr: 'GIS@Wild goose ~/ # '
+    }).print();
+</script>
+
+
+<video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    Your browser does not support the <code>video</code> element.
+</video>
+
+<script>
+    var czml = [{
+        "id": "document",
+        "name": "CZML Path",
+        "version": "1.0",
+        "clock": {
+            "interval": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+            "currentTime": "2012-08-04T10:00:00Z",
+            "multiplier": 10
+        }
+    }, {
+        "id": "path",
+        "name": "path with GPS flight data",
+        "description": "<p>Hang gliding flight log data from Daniel H. Friedman.<br>Icon created by Larisa Skosyrska from the Noun Project</p>",
+        "availability": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+        "path": {
+            "material": {
+                "polylineOutline": {
+                    "color": {
+                        "rgba": [255, 0, 255, 255]
+                    },
+                    "outlineColor": {
+                        "rgba": [0, 255, 255, 255]
+                    },
+                    "outlineWidth": 5
+                }
+            },
+            "width": 8,
+            "leadTime": 10,
+            "trailTime": 100000,
+            "resolution": 5
+        },
+        // "billboard": {
+        //     "image": "./Sandcastle/images/bumpmap.png",
+        //     "scale": 0.1,
+        //     "eyeOffset": {
+        //         "cartesian": [0.0, 0.0, -10.0]
+        //     }
+        // },
+        "model": {
+            "gltf": "SampleData/models/vulture.glb",
+            "minimumPixelSize": 100,
+            "maximumScale": 1000,
+            "scale": 200
+        },
+        "orientation": {
+            "velocityReference": "#position"
+        },
+        "position": {
+            "epoch": "2012-08-04T10:00:00Z",
+            "cartographicDegrees": [
+                0, -151.109, 59.619, 0,
+                10, -151.17, 60.515, 0,
+                20, -150.738, 60.515, 0,
+                30, -151.16, 60.531, 0,
+                40, -152.547, 60.305, 0,
+                50, -154.25, 59.8, 0,
+                60, -154.565, 59.708, 0,
+                70, -153.92, 59.779, 0,
+                80, -154.243, 59.806, 0,
+                90, -154.891, 59.683, 0,
+                100, -155.343, 59.589, 0,
+                110, -155.719, 59.484, 0,
+                120, -154.228, 59.798, 0,
+                130, -153.883, 59.762, 0,
+                140, -154.749, 59.761, 0,
+                150, -147.101, 60.254, 0,
+                160, -146.715, 60.289, 0,
+                170, -146.387, 60.308, 0,
+                180, -145.144, 60.287, 0,
+                190, -144.37, 60.153, 0,
+                200, -146.523, 60.357, 0,
+                210, -147.071, 60.276, 0,
+                220, -146.468, 60.305, 0,
+                230, -141.151, 59.977, 0,
+                240, -139.191, 59.457, 0,
+                250, -138.398, 59.196, 0,
+                260, -139.293, 59.388, 0,
+                270, -145.226, 60.294, 0,
+                280, -151.164, 60.512, 0,
+                290, -154.491, 59.982, 0,
+                300, -155.017, 59.414, 0,
+                310, -155.797, 59.32, 0,
+                320, -158.791, 59.086, 0,
+                330, -165.999, 65.219, 0,
+                340, -166.502, 65.175, 0,
+                350, -170.19, 66.034, 0,
+                360, -174.323, 66.52, 0,
+            ]
+        }
+    }];
+
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+        terrainProvider: Cesium.createWorldTerrain(),
+        baseLayerPicker: false,
+        shouldAnimate: true
+    });
+
+    viewer.dataSources.add(Cesium.CzmlDataSource.load(czml)).then(function (ds) {
+        viewer.trackedEntity = ds.entities.getById('path');
+    });
+
+
+</script>
+
+</body>
+</html>

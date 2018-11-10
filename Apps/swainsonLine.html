@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>I'm Swainson!</title>
+    <!--Cesium库，以后所有东西都从这个库调用-->
+    <script src="../Build/Cesium/Cesium.js"></script>
+    <!--百度地图库，调用百度地图js-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>-->
+    <!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>-->
+    <!--<script type="text/javascript"-->
+    <!--src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>-->
+    <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
+    <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
+    <!--加入视频组件需要的库-->
+    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+
+    <style>
+        /*Cesium的viewer需要的css文件*/
+        @import url(../Build/Cesium/Widgets/widgets.css);
+        @import "./Sandcastle/templates/bucket.css";
+
+        /*视频CSS*/
+        #video1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 325px;
+            height: 200px;
+        }
+
+        /*打字效果CSS*/
+        #window {
+            position: absolute;
+            top: 220px;
+            left: 10px;
+            width: 320px;
+            height: 198px;
+            background-color: black;
+            /*margin: 10px auto;*/
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        #title-bar {
+            width: 320px;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 5px;
+            font-size: 14px;
+            background-color: #eee;
+            font-family: Consolas, serif;
+        }
+
+        #title-bar span:before {
+            content: "\25cf";
+        }
+
+        #title-bar span {
+            font-size: 24px;
+        }
+
+        #close {
+            color: red;
+        }
+
+        #min {
+            color: yellow;
+        }
+
+        #max {
+            color: #00FF00;
+        }
+
+        tilte-title {
+            font-weight: bold;
+        }
+
+        #show-board {
+            width: 320px;
+            height: 198px;
+            background-color: #333;
+            color: #eee;
+            padding: 2.5px;
+        }
+    </style>
+</head>
+<body>
+<!--显示的写出来的东西-->
+<div id="cesiumContainer" class="fullSize"></div>
+<div id="loadingOverlay"><h1>Loading...</h1></div>
+<div id="toolbar"></div>
+
+<div id="window">
+    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    </div>
+    <div id="show-board"></div>
+</div>
+
+<script src="TypeJS/printer.js"></script>
+<script>
+    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
+    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
+    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
+    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    Printer.init(str, {
+        selector: 'show-board',
+        lnStr: 'GIS@Wild goose ~/ # '
+    }).print();
+</script>
+
+
+<video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
+    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    Your browser does not support the <code>video</code> element.
+</video>
+
+<script>
+    var czml = [{
+        "id": "document",
+        "name": "CZML Path",
+        "version": "1.0",
+        "clock": {
+            "interval": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+            "currentTime": "2012-08-04T10:00:00Z",
+            "multiplier": 10
+        }
+    }, {
+        "id": "path",
+        "name": "path with GPS flight data",
+        "description": "<p>Hang gliding flight log data from Daniel H. Friedman.<br>Icon created by Larisa Skosyrska from the Noun Project</p>",
+        "availability": "2012-08-04T10:00:00Z/2012-08-04T15:00:00Z",
+        "path": {
+            "material": {
+                "polylineOutline": {
+                    "color": {
+                        "rgba": [255, 0, 255, 255]
+                    },
+                    "outlineColor": {
+                        "rgba": [0, 255, 255, 255]
+                    },
+                    "outlineWidth": 5
+                }
+            },
+            "width": 8,
+            "leadTime": 10,
+            "trailTime": 100000,
+            "resolution": 5
+        },
+        // "billboard": {
+        //     "image": "./Sandcastle/images/bumpmap.png",
+        //     "scale": 0.1,
+        //     "eyeOffset": {
+        //         "cartesian": [0.0, 0.0, -10.0]
+        //     }
+        // },
+        "model": {
+            "gltf": "SampleData/models/vulture.glb",
+            "minimumPixelSize": 100,
+            "maximumScale": 1000,
+            "scale": 200
+        },
+        "orientation": {
+            "velocityReference": "#position"
+        },
+        "position": {
+            "epoch": "2012-08-04T10:00:00Z",
+            "cartographicDegrees": [
+                0,	-117.913,	45.257,	0,
+                10,	-113.593,	42.769,	0,
+                20,	-112.847,	42.5,	0,
+                30,	-112.272,	43.684,	0,
+                40,	-113.543,	42.843,	0,
+                50,	-114.383,	42.319,	0,
+                60,	-113.564,	42.391,	0,
+                70,	-111.375,	41.305,	0,
+                80,	-101.433,	38.095,	0,
+                90,	-100.825,	36.185,	0,
+                100,	-99.691,	35.109,	0,
+                110,	-99.727,	33.931,	0,
+                120,	-99.668,	31.538,	0,
+                130,	-98.297,	23.105,	0,
+                140,	-99.737,	31.099,	0,
+                150,	-98.337,	22.31,	0,
+                160,	-96.721,	19.72,	0,
+                170,	-96.063,	17.764,	0,
+                180,	-95.427,	17.538,	0,
+                190,	-95.17,	16.72,	0,
+                200,	-92.714,	15.395,	0,
+                210,	-89.592,	13.9,	0,
+                220,	-87.335,	13.432,	0,
+                230,	-85.811,	12.657,	0,
+                240,	-84.491,	10.843,	0,
+                250,	-82.452,	8.711,	0,
+                260,	-82.533,	9.663,	0,
+                270,	-80.23,	8.977,	0,
+                280,	-76.928,	7.101,	0,
+                290,	-75.955,	4.121,	0,
+                300,	-75.574,	2.576,	0,
+                310,	-75.371,	0.903,	0,
+                320,	-74.315,	1.098,	0,
+                330,	-74.192,	-0.612,	0,
+                340,	-74.702,	-0.524,	0,
+                350,	-71.921,	-4.982,	0,
+                360,	-70.428,	-7.654,	0,
+                370,	-66.649,	-12.927,	0,
+                380,	-62.944,	-18.6,	0,
+                390,	-62.512,	-21.495,	0,
+                400,	-61.923,	-22.796,	0,
+                410,	-62.25,	-25.046,	0,
+                420,	-61.225,	-27.701,	0,
+                430,	-61.793,	-27.328,	0,
+                440,	-62.592,	-30.202,	0,
+                450,	-61.897,	-30.442,	0,
+                460,	-62.353,	-32.771,	0,
+                470,	-62.955,	-32.755,	0,
+                480,	-62.761,	-32.907,	0,
+                490,	-64.559,	-34.363,	0,
+                500,	-63.48,	-35.375,	0,
+                510,	-63.585,	-34.445,	0,
+                520,	-63.036,	-35.207,	0,
+                530,	-64.138,	-35.06,	0,
+                540,	-64.245,	-34.321,	0,
+                550,	-63.791,	-33.765,	0,
+                560,	-62.724,	-32.455,	0,
+                570,	-63.635,	-33.34,	0,
+                580,	-63.614,	-33.284,	0,
+                590,	-61.928,	-31.588,	0,
+                600,	-62.124,	-26.146,	0,
+                610,	-65.14,	-11.008,	0,
+                620,	-69.01,	-6.086,	0,
+                630,	-72.321,	0.017,	0,
+                640,	-76.95,	7.621,	0,
+                650,	-91.134,	14.333,	0,
+                660,	-100.717,	28.472,	0,
+                670,	-102.317,	28.277,	0,
+                680,	-109.437,	31.05,	0,
+                690,	-110.124,	31.418,	0,
+                700,	-120.664,	37.669,	0,
+                710,	-120.792,	38.175,	0,
+                720,	-121.12,	38.103,	0,
+                730,	-119.809,	45.719,	0,
+            ]
+        }
+    }];
+
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+        terrainProvider: Cesium.createWorldTerrain(),
+        baseLayerPicker: false,
+        shouldAnimate: true
+    });
+
+    viewer.dataSources.add(Cesium.CzmlDataSource.load(czml)).then(function (ds) {
+        viewer.trackedEntity = ds.entities.getById('path');
+    });
+
+
+</script>
+
+</body>
+</html>
