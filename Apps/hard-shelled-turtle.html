@@ -25,7 +25,7 @@
     <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
     <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
     <!--加入视频组件需要的库-->
-    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+    <link rel="stylesheet" type="text/css" href="vidioJS/video-js.css"/>
 
     <style>
         /*Cesium的viewer需要的css文件*/
@@ -89,7 +89,7 @@
 
         #show-board {
             width: 320px;
-            height: 198px;
+            height: 260px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
@@ -110,13 +110,13 @@
 
 <script src="TypeJS/printer.js"></script>
 <script>
-    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
-    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
-    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
-    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    var str = '海龟（学名：Chelonia mydas）隶属龟鳖目、海龟科、海龟属。\n';
+    str += '广布于大西洋、太平洋和印度洋。中国海龟北起山东、南至北部湾近海均有分布。长可达1米多，寿命最大为150岁左右。\n';
+    str += '头顶有一对前额鳞。四肢如桨，前肢长于后肢，内侧各有一爪。头、颈和四肢不能缩入甲内。主要以海藻为食。生活在大西洋、太平洋和印度洋中，到陆地上产卵，孵出幼体，为国家二级保护动物。\n';
+    str += '海龟适应在水中生活，四肢变成鳍状，利于游泳。一般仅在繁殖季节离水上岸。雌龟将卵产在掘于沙滩的洞穴中。\n';
     Printer.init(str, {
         selector: 'show-board',
-        lnStr: 'GIS@Wild goose ~/ # '
+        lnStr: 'GIS@Chelonia mydas ~/ # '
     }).print();
 </script>
 
@@ -168,7 +168,7 @@
         //     }
         // },
         "model": {
-            "gltf": "SampleData/models/vulture.glb",
+            "gltf": "SampleData/models/tortoise.glb",
             "minimumPixelSize": 100,
             "maximumScale": 1000,
             "scale": 200

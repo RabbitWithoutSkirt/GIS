@@ -25,7 +25,7 @@
     <!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
     <!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
     <!--加入视频组件需要的库-->
-    <link rel="stylesheet" type="text/css" href="./videoJS/video-js.css"/>
+    <link rel="stylesheet" type="text/css" href="vidioJS/video-js.css"/>
 
     <style>
         /*Cesium的viewer需要的css文件*/
@@ -89,7 +89,7 @@
 
         #show-board {
             width: 320px;
-            height: 198px;
+            height: 260px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
@@ -110,13 +110,13 @@
 
 <script src="TypeJS/printer.js"></script>
 <script>
-    var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
-    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
-    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
-    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    var str = '白额雁（学名：Anser albifrons）是雁属中体形大，个体重的鸟类。体长64-80厘米，体重2-3.5千克，和豆雁大小差不多。上体大多灰褐色，从上嘴基部至额有一宽阔白斑，下体白色，杂有黑色块斑。\n';
+    str += '飞行时双翼拍打用力，振翅频率高。脖子较长。腿位于身体的中心支点，行走自如。有扁平的喙，边缘锯齿状，有助于过滤食物。主要以植物性食物为食。觅食多在白天，有迁徙的习性，迁飞距离也较远。\n';
+    str += '喜群居，飞行时成有序的队列，有一字形、人字形等。为一夫一妻制，雌雄共同参与雏鸟的的养育。\n';
+    str += '繁殖于西伯利亚北极海岸到白令海峡、北美洲极北部、欧洲西部及格陵兰岛西部。越冬在中国、北美洲、墨西哥、里海、黑海、地中海、中亚、印度、缅甸、日本、朝鲜。\n';
     Printer.init(str, {
         selector: 'show-board',
-        lnStr: 'GIS@Wild goose ~/ # '
+        lnStr: 'GIS@Anser albifrons ~/ # '
     }).print();
 </script>
 
@@ -168,7 +168,7 @@
         //     }
         // },
         "model": {
-            "gltf": "SampleData/models/vulture.glb",
+            "gltf": "SampleData/models/goose.glb",
             "minimumPixelSize": 100,
             "maximumScale": 1000,
             "scale": 200
