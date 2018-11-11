@@ -6,16 +6,6 @@
       <change afterPath="$PROJECT_DIR$/Apps/SampleData/models/white-fronted goose.gltf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Apps/SampleData/models/white-fronted goose.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/Mergus merganser.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Mergus merganser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/Swainson.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Swainson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/Turkey vultures.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Turkey vultures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/barnacle geese.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/barnacle geese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/echarts1/html/flights.json" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/echarts1/html/flights.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/red-backed shrike.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/red-backed shrike.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/try_two.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/white-fronted goose.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/white-fronted goose.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +31,7 @@
           <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.45" value="1" />
@@ -49,7 +39,7 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +71,7 @@
           <entry key="html" value="2621" />
           <entry key="js" value="7" />
           <entry key="json" value="527" />
-          <entry key="txt" value="299" />
+          <entry key="txt" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -90,7 +80,7 @@
           <entry key="HTML" value="2621" />
           <entry key="JSON" value="527" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="306" />
+          <entry key="PLAIN_TEXT" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -105,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="68398" column="5" lean-forward="true" selection-start-line="68398" selection-start-column="5" selection-end-line="68398" selection-end-column="5" />
+            <state relative-caret-position="1299562">
+              <caret line="68398" column="5" selection-start-line="68398" selection-start-column="5" selection-end-line="68398" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="3287">
               <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
             </state>
           </provider>
@@ -123,12 +113,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="2128">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -143,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/Guide pages/navigator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="166" column="51" lean-forward="true" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
+            <state relative-caret-position="3154">
+              <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -152,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/echarts1/js/echarts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-817">
-              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="152">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -161,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="1083">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -170,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="169" column="44" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
+            <state relative-caret-position="988">
+              <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -179,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1980">
+            <state relative-caret-position="931">
               <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
             </state>
           </provider>
@@ -188,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+            <state relative-caret-position="3135">
+              <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -197,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="3382">
               <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
             </state>
           </provider>
@@ -353,7 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,6 +358,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,6 +443,7 @@
       <workItem from="1541829093040" duration="9141000" />
       <workItem from="1541915793719" duration="7245000" />
       <workItem from="1541932206167" duration="12537000" />
+      <workItem from="1541954122318" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="commit by WebStorm">
       <created>1541600500618</created>
@@ -518,14 +508,22 @@
       <option name="project" value="LOCAL" />
       <updated>1541937404876</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Except Guide Page">
+      <created>1541954434641</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541954434641</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130838000" />
+    <option name="totallyTimeSpent" value="131160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -662,13 +660,7 @@
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/css/t.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/try_two.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="127" column="14" lean-forward="true" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/try_two.html" />
     <entry file="file://$PROJECT_DIR$/Apps/SampleData/try1.czml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -699,19 +691,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights_wyc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights_wyc.html" />
     <entry file="file://$PROJECT_DIR$/Apps/Guide pages/js/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -747,70 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="165" column="29" lean-forward="true" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/Guide pages/button/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4130">
           <caret line="363" column="55" selection-start-line="363" selection-start-column="55" selection-end-line="363" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="68398" column="5" lean-forward="true" selection-start-line="68398" selection-start-column="5" selection-end-line="68398" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -821,24 +741,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/flights.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1299562">
+          <caret line="68398" column="5" selection-start-line="68398" selection-start-column="5" selection-end-line="68398" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3287">
+          <caret line="173" column="33" selection-start-line="173" selection-start-column="33" selection-end-line="173" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/Guide pages/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="166" column="51" lean-forward="true" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
+        <state relative-caret-position="3154">
+          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/js/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="152">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3382">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="169" column="44" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
+        <state relative-caret-position="988">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
         </state>
       </provider>
     </entry>
