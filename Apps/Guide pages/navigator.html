@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Liquid Distortion Effects | Demo 1 | Codrops</title>
+		<meta name="description" content="Some liquid distortion effects applied to an image slideshow using canvas, PixiJS and Greensock" />
+		<meta name="keywords" content="web development, canvas, distortion, liquid, effect, slideshow, javascript" />
+		<meta name="author" content="Yannis Yannakopoulos for Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />		
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+
+		<link href="text/assets/animate.css" rel="stylesheet">
+  		<link href="text/assets/style.css" rel="stylesheet">
+  		<link rel="stylesheet" type="text/css" href="button/css/base.css" />
+  		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+    	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    
+	    <!-- <svg class='hidden'>
+	      
+	    </svg> -->
+	    <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
+		<!-- <script>document.documentElement.className = 'js';</script> -->
+	</head>
+	<body class="demo-1 loading" style="z-index: 0">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+			<symbol id="icon-github" viewBox="0 0 32.6 31.8">
+				<title>github</title>
+				<path d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"/>
+			</symbol>
+			<symbol id="icon-arrow-nav" viewBox="208.3 352 4.2 6.4">
+				<title>arrow-nav</title>
+				<polygon points="212.1,357.3 211.5,358 208.7,355.1 211.5,352.3 212.1,353 209.9,355.1"></polygon>
+			</symbol>
+
+			<symbol id="icon-rewind"  viewBox="0 0 512 512" width="512px" height="512px">
+		        <title>back</title>
+		    	<path d="M482.195,226.196C482.195,101.471,380.725,0,256.001,0S29.805,101.471,29.805,226.196c0,7.409,6.007,13.416,13.416,13.416    s13.416-6.008,13.416-13.416c0-109.93,89.434-199.363,199.363-199.363s199.363,89.434,199.363,199.363    c0,109.928-89.434,199.362-199.363,199.362h-23.276l33.282-37.255c4.937-5.525,4.458-14.007-1.067-18.944    c-5.525-4.937-14.008-4.457-18.944,1.068l-47.576,53.255c-7.788,8.718-7.788,21.866,0,30.584l47.576,53.255    c2.651,2.968,6.322,4.478,10.01,4.478c3.181,0,6.375-1.126,8.934-3.41c5.526-4.937,6.004-13.419,1.067-18.944l-33.282-37.255    h23.276C380.725,452.39,482.195,350.919,482.195,226.196z" fill="#FFDA44"/>
+		    </symbol>
+		</svg>
+		<main class="site-wrapper">
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/SlicedDualImageLayout/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=32454" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					</div>
+					<h1 class="codrops-header__title">Liquid Distortion Effects</h1>
+				</header>
+				<a class="github" href="https://github.com/codrops/LiquidDistortion/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
+				
+			</div>
+			<div class="content">
+				<div class="slide-wrapper">
+					<div class="slide-item">
+						<img src="img/16.jpg" class="slide-item__image">
+					</div>
+					<div class="slide-item">
+						<img src="img/17.jpg" class="slide-item__image">
+					</div>
+					<div class="slide-item">
+						<img src="img/4.jpg" class="slide-item__image">
+					</div>					
+				</div>
+				<!-- 文字 -->
+				<div class="jumbotron" style="transform: translateY(-20%);">
+					<div class="container">
+	  		  			<h1 class='fade'>watch&nbsp;this!</h1>
+	  		  			<h2 class='fade'>Way&nbsp;Down</h2>
+		  				<p class="tlt" data-in-effect="bounceInDown">
+		  					At twenty years of age, the will reigns; at thirty, the wit; and at forty, the judgment.
+		  				</p>
+	  				</div>      
+  				</div>
+				<button class="hidden scene-nav scene-nav--prev" data-nav="previous"><svg class="icon icon--arrow-nav-prev"><use xlink:href="#icon-arrow-nav"></use></svg></button>
+				<button class="scene-nav scene-nav--next" style="right:0px" data-nav="next"><svg class="icon icon--arrow-nav-next"><use xlink:href="#icon-arrow-nav"></use></svg></button>
+
+				<div class="hidden grid__item theme-2">
+		            <button class="action"><svg class="icon icon--rewind"><use xlink:href="#icon-rewind"></use></svg></button>
+		            <button class="particles-button btn">Let's do it</button>
+		            <!-- onclick="Redirect()" -->
+	          	</div>
+
+			</div>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/pixi.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/main5.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+
+		<script src="text/assets/jquery.min.js"></script>
+		<script src="text/assets/jquery.fittext.js"></script>
+		<script src="text/assets/jquery.lettering.js"></script>
+		<script src="text/assets/highlight.min.js"></script>
+		<script src="text/assets/jquery.textillate.js"></script>
+
+		<script src='button/js/anime.min.js'></script>
+	    <script src='button/js/particles.js'></script>
+	    <script src='button/js/demo.js'></script>
+
+
+		<script>
+
+			imagesLoaded(document.body, () => document.body.classList.remove('loading'));
+
+			var spriteImages 	= document.querySelectorAll( '.slide-item__image' );
+			var spriteImagesSrc = [];
+
+			for ( var i = 0; i < spriteImages.length; i++ ) {
+				var img = spriteImages[i];
+				spriteImagesSrc.push( img.getAttribute('src' ) );
+			}
+
+			var initCanvasSlideshow = new CanvasSlideshow({
+				//interactive:true,
+				sprites: spriteImagesSrc,
+				displacementImage: 'img/dmaps/2048x2048/ripple_2.jpg',
+				//ripple_4.jpg',
+				autoPlay: false,
+				// autoPlaySpeed: [0.1, 0.1],
+				// autoPlay: true,
+				displaceScale: [0, 500],
+				fullScreen: true,
+				displaceAutoFit: true,
+				displacementCenter: true,
+				//texts: ["Have A Nice Day","Keep Smiling","Best of Luck"],
+				textColor: ["#f0ff00","#00ff00","#10afee"],
+				centerSprites: true,
+				wacky: true
+			});
+
+
+			$(function (){
+		    // var log = function (msg) {
+		    //   return function () {
+		    //     if (console) console.log(msg);
+		    //   }
+		    // }
+		    // $('code').each(function () {
+		    //   var $this = $(this);
+		    //   $this.text($this.html());
+		    // })
+
+		    // var animateClasses = 'flash bounce shake tada swing wobble pulse flip flipInX flipOutX flipInY flipOutY fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig bounceIn bounceInDown bounceInUp bounceInLeft bounceInRight bounceOut bounceOutDown bounceOutUp bounceOutLeft bounceOutRight rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight hinge rollIn rollOut';
+
+		    //   if (type) {
+		    //     $form.find('[data-key="effect"]' + type).append(option);        
+		    //   }
+		    // });
+
+		    // $form.find('[data-key="effect"][data-type="in"]').val('fadeInLeftBig');
+		    // $form.find('[data-key="effect"][data-type="out"]').val('hinge');
+
+		     $('.jumbotron h2').addClass('hidden');
+
+		    $('.jumbotron h1')
+		      //.fitText(0.5)
+		      .textillate(
+		      	{ initialDelay:1000, 
+		      		minDisplayTime: 2000,
+					loop:false,
+					in: { delay:0,effect: 'fadeInUp',sync:true},
+					out: { delay:0,effect: 'fadeOutUp',sync:true,callback:function(){$('h1').addClass('hidden');}}
+				}
+			);
+		    
+		    $('.jumbotron p')
+		      //.fitText(3.2, { maxFontSize: 28})
+		      //.fitText(3.2)
+		      .textillate(
+		      	{ initialDelay: 2000,
+		      		in: { delay: 3, shuffle: true },
+		      		out: { delay: 3, shuffle: true, callback:function(){$('p').addClass('hidden'); }} 
+		      	}
+		      );
+
+		      setTimeout(function () {
+		        $('h1.fade').addClass('in');
+		    }, 600);
+
+		      setTimeout(function () {
+		        $('h1').removeClass('fade');
+		    }, 3000);
+
+		    setTimeout(function () {
+		        $('h1').addClass('glow');
+		    }, 4000);
+
+		    // setTimeout(function(){
+		    // 	$('.jumbotron h1')[0].innerHTML="Way Down";
+		    // },6000);
+
+		  });
+
+			// function Redirect(){
+			// 	setTimeout(function(){},)
+			// }
+
+			
+		</script>
+	</body>
+</html>

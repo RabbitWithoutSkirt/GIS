@@ -2,21 +2,146 @@
 <html style="height: 100%">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/t.css" />
+
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
 </head>
+
 <body style="height: 100%; margin: 0">
-<div id="container" style="height: 100%"></div>
+<style>
+    .icon {
+        display: block;
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0 auto;
+        fill: currentColor;
+    }
+</style>
+
+<svg class='hidden' version="1.1" id="Layer_1" x="0px" y="0px" style="enable-background:new 0 0 511.147 511.147;" xml:space="preserve">
+            <symbol id="icon-arrow" viewBox="0 0 511.147 511.147">
+                <title>GO</title>
+                <g transform="translate(1 1)">
+                    <g>
+                        <path style="fill:#FFE100;" d="M161.133,297.279L161.133,297.279c-9.387,0-17.067-7.68-17.067-17.067v-51.2
+                            c0-9.387,7.68-17.067,17.067-17.067s17.067,7.68,17.067,17.067v51.2C178.2,289.599,170.52,297.279,161.133,297.279"></path>
+                        <path style="fill:#FFE100;" d="M92.867,297.279L92.867,297.279c-9.387,0-17.067-7.68-17.067-17.067v-51.2
+                            c0-9.387,7.68-17.067,17.067-17.067s17.067,7.68,17.067,17.067v51.2C109.933,289.599,102.253,297.279,92.867,297.279"></path>
+                        <polygon style="fill:#FFE100;" points="212.333,297.279 212.333,297.279 314.733,297.279 314.733,391.145 468.333,254.612
+                            314.733,118.078 314.733,211.945 212.333,211.945         "></polygon>
+                    </g>
+                    <polygon style="fill:#FFA800;" points="314.733,391.145 502.467,254.612 314.733,118.078 468.333,254.612  "></polygon>
+                    <path style="fill:#FFFFFF;" d="M24.6,297.279L24.6,297.279c-9.387,0-17.067-7.68-17.067-17.067v-51.2
+                        c0-9.387,7.68-17.067,17.067-17.067s17.067,7.68,17.067,17.067v51.2C41.667,289.599,33.987,297.279,24.6,297.279"></path>
+                    <path style="fill:#FFE100;" d="M41.667,297.279L41.667,297.279c-9.387,0-17.067-7.68-17.067-17.067v-51.2
+                        c0-9.387,7.68-17.067,17.067-17.067"></path>
+                    <path d="M161.133,305.812c-14.507,0-25.6-11.093-25.6-25.6v-51.2c0-14.507,11.093-25.6,25.6-25.6c14.507,0,25.6,11.093,25.6,25.6
+                        v51.2C186.733,294.719,175.64,305.812,161.133,305.812z M161.133,220.478c-5.12,0-8.533,3.413-8.533,8.533v51.2
+                        c0,5.12,3.413,8.533,8.533,8.533c5.12,0,8.533-3.413,8.533-8.533v-51.2C169.667,223.892,166.253,220.478,161.133,220.478z"></path>
+                    <path d="M92.867,305.812c-14.507,0-25.6-11.093-25.6-25.6v-51.2c0-14.507,11.093-25.6,25.6-25.6s25.6,11.093,25.6,25.6v51.2
+                        C118.467,294.719,107.373,305.812,92.867,305.812z M92.867,220.478c-5.12,0-8.533,3.413-8.533,8.533v51.2
+                        c0,5.12,3.413,8.533,8.533,8.533s8.533-3.413,8.533-8.533v-51.2C101.4,223.892,97.987,220.478,92.867,220.478z"></path>
+                    <path d="M24.6,305.812c-14.507,0-25.6-11.093-25.6-25.6v-51.2c0-14.507,11.093-25.6,25.6-25.6s25.6,11.093,25.6,25.6v51.2
+                        C50.2,294.719,39.107,305.812,24.6,305.812z M24.6,220.478c-5.12,0-8.533,3.413-8.533,8.533v51.2c0,5.12,3.413,8.533,8.533,8.533
+                        s8.533-3.413,8.533-8.533v-51.2C33.133,223.892,29.72,220.478,24.6,220.478z"></path>
+                    <path d="M314.733,399.678c-1.707,0-2.56,0-4.267-0.853c-2.56-1.707-4.267-4.267-4.267-7.68v-85.333h-93.867
+                        c-5.12,0-8.533-3.413-8.533-8.533v-85.333c0-5.12,3.413-8.533,8.533-8.533H306.2v-85.333c0-3.413,1.707-5.973,4.267-7.68
+                        s5.973-0.853,8.533,0.853l187.733,136.533c2.56,1.707,3.413,4.267,3.413,6.827c0,2.56-1.707,5.12-3.413,6.827l-68.267,49.493
+                        c-3.413,2.56-9.387,1.707-11.947-1.707c-1.707-3.413-0.853-9.387,2.56-11.947l58.88-42.667L323.267,135.145v76.8
+                        c0,5.12-3.413,8.533-8.533,8.533h-93.867v68.267h93.867c5.12,0,8.533,3.413,8.533,8.533v76.8l57.173-40.96
+                        c3.413-2.56,9.387-1.707,11.947,1.707c2.56,3.413,1.707,9.387-1.707,11.947l-69.973,51.2
+                        C318.147,398.825,316.44,399.678,314.733,399.678z"></path>
+                    <path d="M411.16,313.492c-5.12,0-8.533,3.413-8.533,8.533c0,5.12,3.413,8.533,8.533,8.533c5.12,0,8.533-3.413,8.533-8.533
+                        C419.693,316.905,416.28,313.492,411.16,313.492"></path>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+            </symbol>
+    </svg>
+
+<div id="sys-loading" class="" style="background: #000">
+    <div class="spinner">
+        <div class="loader-inner line-scale-pulse-out-rapid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<div name="word" style="background:none;position:absolute;top:5px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">hard-shelled-turtle</div>
+<div name="word" style="background:none;position:absolute;top:29px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Turkey vultures</div>
+<div name="word" style="background:none;position:absolute;top:53px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">white-fronted goose</div>
+<div name="word" style="background:none;position:absolute;top:77px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">barnacle geese</div>
+<div name="word" style="background:none;position:absolute;top:101px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Mergus merganser</div>
+<div name="word" style="background:none;position:absolute;top:125px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">red-backed shrike</div>
+<div name="word" style="background:none;position:absolute;top:149px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Swainson</div>
+
+<div id="container" style="position:absolute; height: 100%;width:100%;left:0px;top:0px">
+
+</div>
+
+
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-<script type="text/javascript"
-        src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+<script type="text/javascript"src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
 <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
 <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
 <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+
 <script type="text/javascript">
+    //链接图标
+    var word=document.getElementsByName("word");
+
+
+    for (var i = word.length - 1; i >= 0; i--) {
+        var position=[word[i].offsetTop,word[i].offsetLeft];
+        var rec=[word[i].offsetHeight,word[i].offsetWidth];
+        position[0]+=rec[0]-21;position[1]+=rec[1]+3;
+        var str="<a style=\"position:absolute;"+"top:"+position[0]+"px;left:"+position[1];
+        str = str+ "px;z-index:1\" href=\"http://localhost:63342/Cesium-1.50/Apps/"+word[i].innerText+".html\" title=\"" + word[i].innerText + "\"><svg class=\"icon\"><use xlink:href=\"#icon-arrow\"></use></svg></a>"
+        document.body.innerHTML+=str;
+    }
+    //地图
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
     var app = {};
@@ -162,7 +287,7 @@
                 globe: {
                     baseTexture: pic,
                     heightTexture: pic,
-                    displacementScale: 0.04,
+                    displacementScale: 0.06,
                     shading: 'realistic',
                     environment: '../data-gl/asset/starfield.jpg',
                     realisticMaterial: {
@@ -217,7 +342,23 @@
         myChart.setOption(option, true);
     }
 
-
 </script>
+
+<script src="js/jquery.fittext.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/highlight.min.js"></script>
+<script src="js/jquery.textillate.js"></script>
+
+<script type="text/javascript">
+    document.onreadystatechange = function () {
+        //当页面加载状态
+        if (document.readyState == "complete") {
+            //延迟一秒关闭loading
+            $('#sys-loading').delay(0).hide(0);
+            $('.spinner').delay(0).fadeOut('slow');
+        }
+    }
+</script>
+
 </body>
 </html>

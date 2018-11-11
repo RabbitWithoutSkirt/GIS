@@ -1,8 +1,9 @@
 {
-  "timeline":[
-    1,2
+  "timeline": [
+    1,
+    2
   ],
-  "pic":[
+  "pic": [
     "../data-gl/asset/world.topo.bathy.200401.jpg",
     "../data-gl/asset/world.200409.3x5400x2700.jpg"
   ],
@@ -68396,7 +68397,7 @@
       "America"
     ],
     [
-      "red-backed",
+      "red-backed shrike",
       "Africa"
     ],
     [
