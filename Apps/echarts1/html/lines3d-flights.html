@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <link rel="stylesheet" type="text/css" href="css/t.css" />
+    <link rel="stylesheet" type="text/css" href="css/t.css"/>
 
-    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+    <script>document.documentElement.className = "js";
+    var supportsCssVars = function () {
+        var e, t = document.createElement("style");
+        return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+    };
+    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
     </script>
 </head>
 
@@ -103,47 +108,76 @@
     </div>
 </div>
 
-<div name="word" style="background:none;position:absolute;top:5px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Swainson's Hawks</div>
-<div name="word" style="background:none;position:absolute;top:29px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">hard-shelled-turtle</div>
-<div name="word" style="background:none;position:absolute;top:53px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Turkey vultures</div>
-<div name="word" style="background:none;position:absolute;top:77px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">white-fronted goose</div>
-<div name="word" style="background:none;position:absolute;top:101px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">barnacle geese</div>
-<div name="word" style="background:none;position:absolute;top:125px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">Mergus merganser</div>
-<div name="word" style="background:none;position:absolute;top:149px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">red-backed shrike</div>
+<div name="word"
+     style="background:none;position:absolute;top:5px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    Swainson's Hawks
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:29px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    hard-shelled-turtle
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:53px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    Turkey vultures
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:77px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    white-fronted goose
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:101px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    barnacle geese
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:125px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    Mergus merganser
+</div>
+<div name="word"
+     style="background:none;position:absolute;top:149px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
+    red-backed shrike
+</div>
 
 <div id="container" style="position:absolute; height: 100%;width:100%;left:0px;top:0px">
 
 </div>
 
 
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-<script type="text/javascript"src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
-<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-<!--<script type="text/javascript" src="js/echarts-gl.js"></script>-->
-<!--<script type="text/javascript" src="js/echarts.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>-->
+<!--<script type="text/javascript"src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>-->
+<!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>-->
+<!--<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>-->
+<!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>-->
 
-
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/echarts-gl.min.js"></script>
+<script type="text/javascript" src="js/ecStat.min.js"></script>
+<script type="text/javascript" src="js/dataTool.min.js"></script>
+<script type="text/javascript" src="js/china.js"></script>
+<script type="text/javascript" src="js/world.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+<script type="text/javascript" src="js/bmap.min.js"></script>
+<script type="text/javascript" src="js/simplex.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 
 
 <script type="text/javascript">
     //链接图标
-    var word=document.getElementsByName("word");
+    var word = document.getElementsByName("word");
 
 
     for (var i = word.length - 1; i >= 0; i--) {
-        var position=[word[i].offsetTop,word[i].offsetLeft];
-        var rec=[word[i].offsetHeight,word[i].offsetWidth];
-        position[0]+=rec[0]-21;position[1]+=rec[1]+3;
-        var str="<a style=\"position:absolute;"+"top:"+position[0]+"px;left:"+position[1];
-        str = str+ "px;z-index:1\" href=\"http://localhost:63342/Cesium-1.50/Apps/"+word[i].innerText+".html\" title=\"" + word[i].innerText + "\"><svg class=\"icon\"><use xlink:href=\"#icon-arrow\"></use></svg></a>"
-        document.body.innerHTML+=str;
+        var position = [word[i].offsetTop, word[i].offsetLeft];
+        var rec = [word[i].offsetHeight, word[i].offsetWidth];
+        position[0] += rec[0] - 21;
+        position[1] += rec[1] + 3;
+        var str = "<a style=\"position:absolute;" + "top:" + position[0] + "px;left:" + position[1];
+        str = str + "px;z-index:1\" href=\"http://localhost:63342/Cesium-1.50/Apps/" + word[i].innerText + ".html\" title=\"" + word[i].innerText + "\"><svg class=\"icon\"><use xlink:href=\"#icon-arrow\"></use></svg></a>"
+        document.body.innerHTML += str;
     }
     //地图
     var dom = document.getElementById("container");
