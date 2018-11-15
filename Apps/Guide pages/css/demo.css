@@ -189,6 +189,7 @@ main {
 
 .content--fixed a {
 	pointer-events: auto;
+	cursor: pointer;
 }
 
 /* Header */

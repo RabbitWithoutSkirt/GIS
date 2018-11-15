@@ -8,7 +8,6 @@
       /// ---------------------------      
       var that  =   this;
 
-
       
       //  OPTIONS
       /// ---------------------------      
@@ -252,6 +251,53 @@
       /// ---------------------------
       //  CLICK HANDLERS
       /// ---------------------------         
+       // if (that.currentIndex<slideImages.length - 1) {
+       //      var title=$(".jumbotron h"+(that.currentIndex+1));
+       //    }
+       //    else{
+       //      var title=$(".jumbotron h"+(that.currentIndex+1));
+       //  }
+      //var title;
+      var word=$("#icon-github");
+      word[0].onclick=function(event){
+        if ( isPlaying || that.currentIndex==slideImages.length - 1) {
+            return false;
+          }
+          //动图消失
+          if (that.currentIndex==0) {
+            //$("img").removeClass('move');
+             setTimeout(function () {
+               $("img").addClass('hidden');
+          }, 2000);
+          }
+          //换页前只能点击一下
+          $("a").addClass('hidden');
+          //负责展示
+         var title=$(".jumbotron h"+(that.currentIndex+1));
+          title.removeClass('hidden');
+          title.textillate('in');
+
+            setTimeout(function () {
+              $('.fade').addClass('in');
+          }, 5);
+
+            setTimeout(function () {
+              title.removeClass('fade');
+          }, 3000);
+
+          setTimeout(function () {
+              title.addClass('glow');
+          }, 4000);
+          // switch(that.currentIndex)
+          // {
+          //   case 0 : 
+          //   var title=
+          //     break;
+          //   case 1:
+          //   break;
+          // }
+          //$("#icon-github").addClass('hidden');
+      }
       var nav = options.navElement;
       
       for ( var i = 0; i < nav.length; i++ ) {
@@ -261,44 +307,60 @@
         navItem.onclick = function( event ) {
 
           // Make sure the previous transition has ended
-          if ( isPlaying ) {
+          if ( isPlaying) {
             return false;
           }
-
+          $("a").removeClass('hidden');
+          var title=$(".jumbotron h"+(that.currentIndex+1));
+          //标题消失
+          title.textillate('out');
           if ( this.getAttribute('data-nav') === 'next' ) {
 
               if (that.currentIndex==0) {
 
-               $('.scene-nav--prev').removeClass('hidden');
-
-              $('.jumbotron h1').textillate('out');
-              $('.jumbotron p').textillate('out');
-               
-               //h1消失，h2出现
-              
-
-              //h2飞出动画
-              setTimeout(function () {$('h2').removeClass('hidden');$('.jumbotron h2').textillate({ initialDelay:1000, minDisplayTime: 2000,loop:false,in: { delay:0,effect: 'fadeInUp',sync:true},out: { delay:0,effect: 'fadeOutUp',sync:true,callback:function(){$('h2').addClass('hidden');}}});}, 1000);
-              //h2渐变动画
-              setTimeout(function () {$('h2.fade').addClass('in');}, 1600);
+              $('.scene-nav--prev').removeClass('hidden');
              }
-             else if (that.currentIndex==1) {
-              $('.scene-nav--next').addClass('hidden');
-              //标题消失
-              $('.jumbotron h2').textillate('out');
-              
-              //按钮出现
-              setTimeout(function(){$('.grid__item').removeClass('hidden');},1500)
-             }
+             // else if (that.currentIndex==slideImages.length - 2) {
+             //  $('.scene-nav--next').addClass('hidden');              
+             //  //按钮出现
+             //  setTimeout(function(){$('.grid__item').removeClass('hidden');},1500);
+             //  }
+              else if (that.currentIndex==1) {
+                //自动跳字
+                $(".jumbotron").addClass('hidden');
+                $(".myaction h1").removeClass('hidden');
+                $(".myaction h1").textillate('in');
+              }
+              else if (that.currentIndex==2) {
+                //自动跳字
+                $(".myaction h1").textillate('out');
+                $(".myaction h2").removeClass('hidden');
+                $(".myaction h2").textillate('in');
+                setTimeout(function(){
+                  $('.myaction h2').textillate('out');
+                  setTimeout(function(){$(".myaction h3").removeClass('hidden');
+                  $(".myaction h3").textillate('in');},1000);
+                  setTimeout(function(){$(".myaction h3").textillate('out');},5000);
+              },2500);
 
-            if ( that.currentIndex >= 0 && that.currentIndex < slideImages.length - 1 ) {
+                //隐藏导航
+                $('.scene-nav--next').addClass('hidden');
+                //自动跳页
+                setTimeout(function(){that.moveSlider( spriteImages.length - 1 );},8000);
+                //显示按钮
+                setTimeout(function(){$('.grid__item').removeClass('hidden');},9500);
+              }
+
+            if ( that.currentIndex >= 0 && that.currentIndex < slideImages.length - 2 ) {
               that.moveSlider( that.currentIndex + 1 );
             } else {
               that.moveSlider( 0 );
             }
 
           } else {
-
+            if (that.currentIndex == slideImages.length-1) {
+              $('.scene-nav--next').removeClass('hidden');
+            }
             if ( that.currentIndex > 0 && that.currentIndex < slideImages.length ) {
               that.moveSlider( that.currentIndex - 1 );
             } else {

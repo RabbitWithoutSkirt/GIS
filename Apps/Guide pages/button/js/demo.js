@@ -137,7 +137,7 @@
             }
     }
         let buttonVisible = true;
-        bttn.addEventListener('click', () => {
+        bttn.addEventListener('click', (callback) => {
             // if ( !particles.isAnimating() && buttonVisible ) {
             //     particles.disintegrate();
             //     buttonVisible = !buttonVisible;
