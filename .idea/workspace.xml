@@ -1,32 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Apps/Data/obama_budget_proposal_2012.list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/frame.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/hard-shelled-turtle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/images/effect.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/DIVembed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/jquery-1.8.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/page1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/page2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/hide/web-frame-template/page3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apps/statistic chart/bar-animation-delay.html" afterDir="false" />
+    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="Frame done">
+      <change afterPath="$PROJECT_DIR$/Apps/TypeJS/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/TypeJS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/bigbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/boldlight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/flatty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/jackedup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/libnotify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/humane/original.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/simple-sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/css/style4.1.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/doc/css/docs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/doc/js/docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/hello2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/img/bg-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/img/bg-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/img/bg-login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/index_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/noties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/humane/humane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/noty/jquery.noty.packaged.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/sidebar_menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/js/welcome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/noty1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/noty2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/sf-jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/stylesheets/github-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/stylesheets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/stylesheets/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/tabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/main/prj-admin/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/statistic chart/try.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/echarts1/html/js/echarts-gl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/echarts1/html/js/echarts-gl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/fonts/SK.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/css/frame.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/hard-shelled-turtle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/images/effect.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/DIVembed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/jquery-1.8.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/js/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/page1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hide/web-frame-template/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/statistic chart/bar-animation-delay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/statistic chart/shrike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,19 +119,19 @@
     <session id="126212596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="5" />
+          <entry key="project.open.time.25" value="7" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="4" />
           <entry key="project.open.time.29" value="3" />
@@ -66,54 +144,56 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="48" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
+          <entry key="css" value="16" />
           <entry key="czml" value="6" />
           <entry key="geojson" value="1" />
           <entry key="gltf" value="1" />
-          <entry key="html" value="56" />
+          <entry key="html" value="74" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="26" />
-          <entry key="json" value="12" />
+          <entry key="js" value="36" />
+          <entry key="json" value="13" />
           <entry key="png" value="2" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="56" />
+          <entry key="CSS" value="16" />
+          <entry key="HTML" value="74" />
           <entry key="Image" value="4" />
-          <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="26" />
+          <entry key="JSON" value="13" />
+          <entry key="JavaScript" value="36" />
           <entry key="PLAIN_TEXT" value="8" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="54" />
           <entry key="czml" value="7" />
-          <entry key="html" value="3282" />
-          <entry key="js" value="160" />
+          <entry key="html" value="3447" />
+          <entry key="js" value="183" />
           <entry key="json" value="1008" />
-          <entry key="txt" value="415" />
+          <entry key="txt" value="469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="54" />
-          <entry key="HTML" value="3282" />
+          <entry key="HTML" value="3447" />
           <entry key="JSON" value="1008" />
-          <entry key="JavaScript" value="160" />
-          <entry key="PLAIN_TEXT" value="422" />
+          <entry key="JavaScript" value="183" />
+          <entry key="PLAIN_TEXT" value="476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="14" />
+          <entry key="ESLintLanguageService" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -121,38 +201,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
+        <entry file="file://$PROJECT_DIR$/Apps/statistic chart/shrike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="153" selection-start-line="153" selection-end-line="153" selection-end-column="79" />
+            <state relative-caret-position="444">
+              <caret line="174" selection-start-line="174" selection-end-line="175" selection-end-column="41" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1453#2776#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/statistic chart/bar-animation-delay.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -160,17 +215,67 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="182" column="44" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+            <state relative-caret-position="152">
+              <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html">
+        <entry file="file://$PROJECT_DIR$/Apps/TypeJS/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/TypeJS/printer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/TypeJS/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/TimelineDemo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -187,16 +292,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>144</find>
-      <find>getAirportCoord</find>
-      <find>airlines</find>
-      <find>airports</find>
-      <find>Goroka</find>
-      <find>airportsFields</find>
-      <find>airline</find>
-      <find>pointsData</find>
-      <find>ds</find>
-      <find>document</find>
       <find>path</find>
       <find>globe</find>
       <find>-13.264</find>
@@ -217,6 +312,16 @@
       <find>jq</find>
       <find>data/asset/data/obama_budget_proposal_2012.list.json</find>
       <find>href</find>
+      <find>page-ta</find>
+      <find>主页示例</find>
+      <find>首页</find>
+      <find>resize</find>
+      <find>hello.html</find>
+      <find>frame</find>
+      <find>canvas</find>
+      <find>myChart.setOption</find>
+      <find>H+</find>
+      <find>赖</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,16 +360,22 @@
         <option value="$PROJECT_DIR$/Apps/barnacle geese.html" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
         <option value="$PROJECT_DIR$/Apps/Swainson.html" />
-        <option value="$PROJECT_DIR$/Apps/Swainson's Hawks.html" />
-        <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
         <option value="$PROJECT_DIR$/Apps/Guide pages/button/js/demo.js" />
-        <option value="$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/hard-shelled-turtle.html" />
-        <option value="$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html" />
         <option value="$PROJECT_DIR$/Apps/Data/obama_budget_proposal_2012.list.json" />
-        <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" />
+        <option value="$PROJECT_DIR$/Apps/Swainson's Hawks.html" />
+        <option value="$PROJECT_DIR$/Apps/statistic chart/try.html" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js" />
+        <option value="$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html" />
+        <option value="$PROJECT_DIR$/Apps/statistic chart/shrike.html" />
+        <option value="$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html" />
+        <option value="$PROJECT_DIR$/Apps/echarts1/html/js/echarts-gl.min.js" />
+        <option value="$PROJECT_DIR$/Apps/houtai/prj-admin/index.html" />
+        <option value="$PROJECT_DIR$/Apps/TypeJS/index.js" />
+        <option value="$PROJECT_DIR$/Apps/TypeJS/printer.js" />
+        <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
       </list>
     </option>
   </component>
@@ -299,10 +410,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="197" />
-    <option name="y" value="136" />
-    <option name="width" value="1244" />
-    <option name="height" value="903" />
+    <option name="x" value="386" />
+    <option name="y" value="-10" />
+    <option name="width" value="1245" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -332,7 +443,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,10 +461,17 @@
               <item name="Apps" type="462c0819:PsiDirectoryNode" />
               <item name="statistic chart" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,15 +490,15 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\statistic chart" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\Data" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\hide\web-frame-template" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1\html\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\TypeJS" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\statistic chart" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\Data" />
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\hide\web-frame-template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,7 +570,10 @@
       <workItem from="1542284371953" duration="912000" />
       <workItem from="1542292200597" duration="1411000" />
       <workItem from="1542350661540" duration="4696000" />
-      <workItem from="1542362607961" duration="10490000" />
+      <workItem from="1542362607961" duration="10582000" />
+      <workItem from="1542383349727" duration="967000" />
+      <workItem from="1542436440635" duration="598000" />
+      <workItem from="1542441329200" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="commit by WebStorm">
       <created>1541600500618</created>
@@ -588,19 +708,26 @@
       <option name="project" value="LOCAL" />
       <updated>1542357867256</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="no vidios and Cesium's echarts">
+      <created>1542382980350</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542382980350</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163971000" />
+    <option name="totallyTimeSpent" value="174632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="583" y="46" width="996" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16380449" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.275" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -614,7 +741,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3918919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,90 +765,11 @@
     <MESSAGE value="Except Guide Page" />
     <MESSAGE value="echarts on local" />
     <MESSAGE value="all done" />
-    <option name="LAST_COMMIT_MESSAGE" value="all done" />
+    <MESSAGE value="no vidios and Cesium's echarts" />
+    <MESSAGE value="Frame done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frame done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Build/Cesium/Widgets/widgets.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="1373" column="1" lean-forward="true" selection-start-line="1373" selection-start-column="1" selection-end-line="1373" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Build/Cesium/Cesium.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="11574" column="17" selection-start-line="11574" selection-start-column="17" selection-end-line="11574" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/doc-example_mix-timeline-all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/echarts1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/TypeJS/printer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/try_two.html" />
-    <entry file="file://$PROJECT_DIR$/Apps/SampleData/try1.czml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/SampleData/try2.czml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/data-gl/asset/world.200409.3x5400x2700.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/data-gl/asset/world.topo.bathy.200401.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Guide pages/text/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5054">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights_wyc.html" />
-    <entry file="file://$PROJECT_DIR$/Apps/SampleData/MultipartVehicle_part1.czml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="109" column="11" lean-forward="true" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="63" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/SampleData/models/white-fronted goose.gltf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124529" />
@@ -731,13 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -784,59 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Guide pages/button/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="130" column="29" lean-forward="true" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="106" column="63" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/Guide pages/navigator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -847,13 +839,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/js/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/hard-shelled-turtle.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,41 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Swainson's Hawks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="153" selection-start-line="153" selection-end-line="153" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/page1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -910,45 +865,206 @@
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/page2.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Dashio/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/Apps/Dashio/index.html" />
+    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3382">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Guide pages/button/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="128" column="106" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Swainson's Hawks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/try.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Dashio/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="261" column="38" selection-start-line="261" selection-start-column="32" selection-end-line="261" selection-end-column="38" />
+        <state relative-caret-position="121">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Dashio/index.html">
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/noty/jquery.noty.packaged.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="247" column="37" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="37" />
+        <state>
+          <folding>
+            <element signature="e#25#32#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/hello2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/shrike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="174" selection-start-line="174" selection-end-line="175" selection-end-column="41" />
+          <folding>
+            <element signature="e#1453#2776#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/js/ecStat.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/bar-animation-delay.html">
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/js/echarts-gl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        <state relative-caret-position="361">
+          <caret line="103" column="57" lean-forward="true" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="116" column="4" lean-forward="true" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/js/echarts-gl.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="113" column="37" lean-forward="true" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/TimelineDemo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/TypeJS/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/TypeJS/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/TypeJS/printer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="182" column="44" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+        <state relative-caret-position="152">
+          <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
         </state>
       </provider>
     </entry>

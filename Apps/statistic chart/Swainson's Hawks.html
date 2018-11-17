@@ -47,7 +47,7 @@ $.get('../Data/obama_budget_proposal_2012.list.json', function (obama_budget_201
         },
         calculable : true,
         legend: {
-            data:['Growth', 'Budget 2011', 'Budget 2012'],
+            data:['Growth', 'Budget 2011', 'A'],
             itemGap: 5
         },
         grid: {
@@ -112,10 +112,12 @@ $.get('../Data/obama_budget_proposal_2012.list.json', function (obama_budget_201
     };
 
     myChart.setOption(option);
+    window.onresize = myChart.resize;
 
 });;
 if (option && typeof option === "object") {
     myChart.setOption(option, true);
+    window.onresize = myChart.resize;
 }
        </script>
    </body>
