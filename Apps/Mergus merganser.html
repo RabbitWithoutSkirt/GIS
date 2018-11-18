@@ -47,7 +47,8 @@
             top: 220px;
             left: 10px;
             width: 320px;
-            min-height: 0px;
+            min-height: 100px;
+            max-height: 100px;
             background-color: black;
             /*margin: 10px auto;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -104,17 +105,20 @@
 <div id="toolbar"></div>
 
 <div id="window">
-    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    <div id="title-bar" style="overflow-y: scroll"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
     </div>
     <div id="show-board" style="overflow-y: scroll;"></div>
 </div>
 
 <script src="TypeJS/printer.js"></script>
 <script>
-    var str = '普通秋沙鸭（学名：Mergus merganser）是秋沙鸭中个体最大的一种，体长54-68厘米，体重最大可达2千克。\n';
-    str += '雄鸟头和上颈黑褐色而具绿色金属光泽，枕部有短的黑褐色冠羽，使头颈显得较为粗大。下颈、胸以及整个下体和体侧白色，背黑色，翅上有大型白斑，腰和尾灰色。\n';
-    str += '雌鸟头和上颈棕褐色，上体灰色，下体白色，冠羽短，棕褐色，喉白色，具白色翼镜，特征亦甚明显，容易鉴别。\n';
-    str += '秋沙鸭常成小群，迁徙期间和冬季，也常集成数十甚至上百只的大群，繁殖于欧洲北部、西伯利亚、北美北部和中国西北和东北地区，越冬在繁殖地以南，几乎遍及整个北半球。\n';
+    var str = '普通秋沙鸭（学名：Mergus merganser）是秋沙鸭中个体最大的一种，俗称废物鸭，原因可能是它们肉味腥臭，人们不喜欢食用\n';
+    str += '栖息地：周围草木茂盛的湖泊、河流；淡水居多，偶尔在沿海的海湾\n';
+    str += '分布：北美、亚洲、欧洲，非洲也有少部分，几乎遍布整个北半球\n';
+    str += '保护状况：种群数量可观而稳定，环境适应性良好，无任何生存危机\n';
+    str += '迁徙类型：气候性迁徙、换羽迁徙。气候性迁徙是部分迁徙，即如果栖息地的水面在冬天冻结，一般会迁徙到南方，而在温和的太平洋沿岸，它们是永久的居民；在一些种群中，雄性会表现出明显的换羽迁徙，不同于一般的迁徙，这样的迁徙距离不会太长，且迁徙目的地是高纬度地区\n';
+    str += '迁徙时间：早秋南迁，仲春北迁，具体的时间为9月末10月初和3月初至3月中下旬\n';
+    str += '迁徙单位：结成小组，以小组为单位\n';
     Printer.init(str, {
         selector: 'show-board',
         lnStr: 'GIS@Mergus merganser ~/ # '
@@ -123,9 +127,10 @@
 
 
 <video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">-->
     <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">-->
+    <source src="vidioJS/Mergus%20merganser.mp4" type="video/mp4">
     Your browser does not support the <code>video</code> element.
 </video>
 

@@ -48,6 +48,7 @@
             left: 10px;
             width: 320px;
             min-height: 0px;
+            max-height: 100px;
             background-color: black;
             /*margin: 10px auto;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -90,6 +91,7 @@
         #show-board {
             width: 320px;
             min-height: 0px;
+            max-height: 100px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
@@ -103,9 +105,9 @@
 <div id="toolbar"></div>
 
 <div id="window">
-    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    <div id="title-bar" style="overflow-y: scroll"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
     </div>
-    <div id="show-board"></div>
+    <div id="show-board" style="overflow-y: scroll"></div>
 </div>
 
 <script src="TypeJS/printer.js"></script>

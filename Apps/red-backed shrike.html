@@ -29,8 +29,9 @@
 
     <style>
         /*Cesium的viewer需要的css文件*/
+        @import url(./Sandcastle/templates/bucket.css);
         @import url(../Build/Cesium/Widgets/widgets.css);
-        @import "./Sandcastle/templates/bucket.css";
+        /*@import "./Sandcastle/templates/bucket.css";*/
 
         /*视频CSS*/
         #video1 {
@@ -47,7 +48,8 @@
             top: 220px;
             left: 10px;
             width: 320px;
-            min-height: 0px;
+            min-height: 100px;
+            max-height: 100px;
             background-color: black;
             /*margin: 10px auto;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -90,6 +92,7 @@
         #show-board {
             width: 320px;
             min-height: 0px;
+            max-height: 100px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
@@ -103,27 +106,29 @@
 <div id="toolbar"></div>
 
 <div id="window">
-    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    <div id="title-bar" style="overflow-y: scroll"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
     </div>
-    <div id="show-board"></div>
+    <div id="show-board" style="overflow-y:scroll;"></div>
 </div>
 
 <script src="TypeJS/printer.js"></script>
 <script>
     var str = '红背伯劳（学名：Lanius collurio）为伯劳科伯劳属的一种。体型较小的褐色伯劳。整个上体红褐色，尾上覆羽及尾羽棕色。过眼纹及头侧黑色。\n';
-    str += '雄鸟，两胁沾粉色，头顶至上背灰色，背至尾上覆羽栗褐；尾黑，外侧尾羽具白斑。翼羽黑色，初级飞羽基部具白斑，构成翼斑。自嘴基有黑色宽纹过眼，达于耳区。下体棕白。\n';
-    str += '分布于自英国、欧洲西部、亚洲中部、在中东、非洲越冬以及中国大陆的新疆等地。该物种的模式产地在瑞典。\n';
+    str += '伯劳鸟的特点：\n';
+    str += '分布在英国、欧洲西部、亚洲中部，在中东、非洲以及中国大陆的新疆等地越冬，每年会经过东南欧到达他们的南非越冬地。可以看到它的外表十分的可爱，但是实际上它生性凶猛，嗜吃小形兽类、鸟类、蜥蜴等各种昆虫以及其他活动物，常将猎获物挂在带刺的树上，在树刺的帮助下，将其杀死，撕碎而食之，故有人称其为屠夫鸟\n';
+    str += '迁徙轨迹分析：\n';
+    str += '鸟类迁徙的规律性很强，对于任何一种鸟来说，它们每年迁徙的路线和时间都是不变的。它们总是从某个时间开始，沿着一定的地势朝同一个方向飞行。知道了鸟儿确定迁徙目的地的方法之后，现在让我们一起来看看，它们是如何确定迁徙路线的。与鱼类相比，鸟的迁徙路线不会受到河道的约束，显得自由多了。但是，不要认为，鸟迁徙的时候可以随便飞，飞机在天上飞行时也受航道的限制，鸟儿也是如此。如果一群鸟准备从一个地方飞到另一个地方去，它们是不会乱飞的。鸟儿一般都会沿着河流、海岸线或山脉等地理标志飞行，好多鸟类去与回来的飞行路线是一致的。鸟类之所以沿着河流、海岸线或山脉飞行，那是自然选择的结果。因此，虽然鸟可以笔直地飞越山川河流，但是迁徙的鸟类中却没有一种鸟是沿直线迁飞的。除此之外，鸟儿迁徙的路线还会受到地表植被以及天气状况的影响，这是因为许多鸟并不是一下子从迁出地飞到迁入地的，它们在途中需要找些吃的，补给一下，好增强体力继续自己的迁飞行动。伯劳鸟的飞行路线也不例外，从图中可以看出伯劳并不是直线飞行，而是绕远了很多\n';
     Printer.init(str, {
         selector: 'show-board',
-        lnStr: 'GIS@Lanius collurio ~/ # '
+        lnStr: 'GIS@shrike ~/ # '
     }).print();
 </script>
 
-
 <video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">-->
     <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">-->
+    <source src="vidioJS/shrike.mp4" type="video/mp4">
     Your browser does not support the <code>video</code> element.
 </video>
 

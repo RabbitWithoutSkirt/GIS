@@ -29,8 +29,9 @@
 
     <style>
         /*Cesium的viewer需要的css文件*/
+        @import url(./Sandcastle/templates/bucket.css);
         @import url(../Build/Cesium/Widgets/widgets.css);
-        @import "./Sandcastle/templates/bucket.css";
+        /*@import "./Sandcastle/templates/bucket.css";*/
 
         /*视频CSS*/
         #video1 {
@@ -47,7 +48,8 @@
             top: 220px;
             left: 10px;
             width: 320px;
-            min-height: 0px;
+            min-height: 100px;
+            max-height: 100px;
             background-color: black;
             /*margin: 10px auto;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -90,13 +92,13 @@
         #show-board {
             width: 320px;
             min-height: 0px;
+            max-height: 100px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
         }
-
     </style>
-    <link rel="stylesheet" href="TypeJS/style.css">
+
 </head>
 <body>
 <!--显示的写出来的东西-->
@@ -105,14 +107,12 @@
 <div id="toolbar"></div>
 
 <div id="window">
-    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    <div id="title-bar" style="overflow-y: scroll"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
     </div>
-    <div id="show-board"></div>
+    <div id="show-board" style="overflow-y:scroll;"></div>
 </div>
 
 <script src="TypeJS/printer.js"></script>
-<script src="TypeJS/index.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script class="text-placeholder">
     var str = '海龟（学名：Chelonia mydas）隶属龟鳖目、海龟科、海龟属。\n';
     str += '广布于大西洋、太平洋和印度洋。中国海龟北起山东、南至北部湾近海均有分布。长可达1米多，寿命最大为150岁左右。\n';

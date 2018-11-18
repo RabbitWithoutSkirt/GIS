@@ -47,7 +47,8 @@
             top: 220px;
             left: 10px;
             width: 320px;
-            min-height: 0px;
+            min-height: 100px;
+            max-height: 100px;
             background-color: black;
             /*margin: 10px auto;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -90,6 +91,7 @@
         #show-board {
             width: 320px;
             min-height: 0px;
+            max-height: 100px;
             background-color: #333;
             color: #eee;
             padding: 2.5px;
@@ -103,17 +105,17 @@
 <div id="toolbar"></div>
 
 <div id="window">
-    <div id="title-bar"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
+    <div id="title-bar" style="overflow-y: scroll"><span id="close"></span><span id="min"></span><span id="max"></span><strong id="tilte-title">&nbsp;Console</strong>
     </div>
-    <div id="show-board"></div>
+    <div id="show-board" style="overflow-y: scroll"></div>
 </div>
 
 <script src="TypeJS/printer.js"></script>
 <script>
     var str = '红头美洲鹫以它那大而秃的红色头部著称于世，而这也是它最为重要的一个体态特征。\n';
-    str += '它们分布在加拿大南部至南美洲南端，栖息在辽阔至半开放的地区，包括亚热带森林、丛林、草坪及沙漠。\n';
-    str += '红头美洲鹫是一种大型的鸟类，翼展1.7-1.83米，体长64-81厘米，重0.85-2.26公斤。它们呈深褐色至黑色。头部及颈部没有羽毛及呈紫红色。喙短而钩，呈象牙色。它们生活在野外的寿命为16岁，饲养的可以超过20岁。\n';
-    str += '进食的时候，土耳其秃鹰经常把它那红色的大脑袋伸到动物的尸体里去以撕咬生肉。土耳其秃鹰的嗅觉相当惊人，约方圆10英里。\n';
+    str += '红头美洲鹫种类繁多，分布范围28,000,000平方公里左右，全球数量超过4,500,000只。部分红头美洲鹫全年居住在美国南部，而高纬度种群则会在冬天向赤道地区迁徙。\n';
+    str += '红头美洲鹫广泛分布于开阔的乡村，亚热带森林，灌木丛，沙漠和山麓以及牧场，草原和湿地中。它们最常见于那些附近有树林能够提供筑巢场所的相对开阔区域，并且通常会避开森林茂密的地区。\n';
+    str += '从这个页面可以看出，部分北方种群的红头美洲鹫会迁徙到南美洲北部的委内瑞拉一带而不会进入亚马逊森林。为我们提供数据的文献研究发现与更稀有和罕见的物种相比，红头美洲鹫更能容忍环境条件的变化。它们在迁徙过程中，对热流和食物匮乏问题都有弄好的应对措施。不同的种群选择了不同的迁徙策略，体现了红头美洲鹫极强的运动生态学可塑性。\n';
     Printer.init(str, {
         selector: 'show-board',
         lnStr: 'GIS@Turkey vultures ~/ # '
@@ -122,9 +124,10 @@
 
 
 <video id="video1" muted="" autoplay="" loop="" crossorigin="" controls="">
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.webm" type="video/webm">-->
     <!--<source src="./videoJS/video.mp4" type="video/mp4">-->
-    <source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">
+    <!--<source src="https://cesiumjs.org/videos/Sandcastle/big-buck-bunny_trailer.mov" type="video/quicktime">-->
+    <source src="vidioJS/Turkey%20vultures.webm" type="video/webm">
     Your browser does not support the <code>video</code> element.
 </video>
 
@@ -169,9 +172,9 @@
         // },
         "model": {
             "gltf": "SampleData/models/vulture.glb",
-            "minimumPixelSize": 100,
-            "maximumScale": 1000,
-            "scale": 200
+            "minimumPixelSize": 1,
+            "maximumScale": 1000000,
+            "scale": 100000
         },
         "orientation": {
             "velocityReference": "#position"

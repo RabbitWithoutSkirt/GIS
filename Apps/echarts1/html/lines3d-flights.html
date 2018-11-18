@@ -110,32 +110,25 @@
 
 <div name="word"
      style="background:none;position:absolute;top:5px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    Swainson's Hawks
-</div>
+    Swainson's Hawks</div>
 <div name="word"
      style="background:none;position:absolute;top:29px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    hard-shelled-turtle
-</div>
+    hard-shelled-turtle</div>
 <div name="word"
      style="background:none;position:absolute;top:53px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    Turkey vultures
-</div>
+    Turkey vultures</div>
 <div name="word"
      style="background:none;position:absolute;top:77px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    white-fronted goose
-</div>
+    white-fronted goose</div>
 <div name="word"
      style="background:none;position:absolute;top:101px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    barnacle geese
-</div>
+    barnacle geese</div>
 <div name="word"
      style="background:none;position:absolute;top:125px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    Mergus merganser
-</div>
+    Mergus merganser</div>
 <div name="word"
      style="background:none;position:absolute;top:149px;left:35px;opacity:0;font-size:12px;font-weight: normal; font-family:  'Microsoft YaHei'; display:block">
-    red-backed shrike
-</div>
+    red-backed shrike</div>
 
 <div id="container" style="position:absolute; height: 100%;width:100%;left:0px;top:0px">
 
@@ -176,7 +169,7 @@
         position[0] += rec[0] - 21;
         position[1] += rec[1] + 3;
         var str = "<a style=\"position:absolute;" + "top:" + position[0] + "px;left:" + position[1];
-        str = str + "px;z-index:1\" href=\"http://localhost:63342/Cesium-1.50/Apps/" + word[i].innerText + ".html\" title=\"" + word[i].innerText + "\"><svg class=\"icon\"><use xlink:href=\"#icon-arrow\"></use></svg></a>"
+        str = str + "px;z-index:1\" href=\"../../" + word[i].innerText + ".html\" target='_blank' title=\"" + word[i].innerText + "\"><svg class=\"icon\"><use xlink:href=\"#icon-arrow\"></use></svg></a>"
         document.body.innerHTML += str;
     }
     //地图
