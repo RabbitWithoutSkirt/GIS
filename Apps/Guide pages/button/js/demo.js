@@ -126,7 +126,7 @@
     // };
     function temp1(){
         //页面跳转到echarts
-        window.location.href = 'http://localhost:63342/Cesium-1.50/Apps/echarts1/html/lines3d-flights.html';
+        window.location.href = '../echarts1/html/lines3d-flights.html';
     }
     function temp2(callback){
          if ( !particles.isAnimating() && buttonVisible ) {
