@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/main/prj-admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/main/prj-admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/red-backed shrike.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/red-backed shrike.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,17 +106,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="4" />
           <entry key="png" value="3" />
@@ -125,7 +124,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="8" />
         </counts>
       </usages-collector>
@@ -134,10 +133,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/index.html">
+        <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="552" column="22" lean-forward="true" selection-start-line="552" selection-start-column="22" selection-end-line="552" selection-end-column="22" />
+            <state relative-caret-position="248">
+              <caret line="126" column="55" lean-forward="true" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -154,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>globe</find>
       <find>-13.264</find>
       <find>statusDisplay</find>
       <find>createWorldTerrain</find>
@@ -184,6 +182,7 @@
       <find>赖</find>
       <find>首页</find>
       <find>关闭操作</find>
+      <find>video</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +217,6 @@
         <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
         <option value="$PROJECT_DIR$/Apps/Mergus merganser.html" />
         <option value="$PROJECT_DIR$/Apps/white-fronted goose.html" />
-        <option value="$PROJECT_DIR$/Apps/red-backed shrike.html" />
         <option value="$PROJECT_DIR$/Apps/barnacle geese.html" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
         <option value="$PROJECT_DIR$/Apps/Swainson.html" />
@@ -239,6 +237,7 @@
         <option value="$PROJECT_DIR$/Apps/TypeJS/printer.js" />
         <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
         <option value="$PROJECT_DIR$/Apps/main/prj-admin/index.html" />
+        <option value="$PROJECT_DIR$/Apps/red-backed shrike.html" />
       </list>
     </option>
   </component>
@@ -331,6 +330,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="prj-admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="vidioJS" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -364,6 +369,144 @@
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\Data" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\hide\web-frame-template" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/Guide pages/button/js/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/Guide pages/navigator.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/Mergus merganser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/barnacle geese.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/icons.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/profile_small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/default/loading-0.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/statistic chart/Swainson's Hawks.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/fonts/glyphicons-halflings-regular2.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/duckling-side-view-silhouette.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/eagle (1).svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/eagle (2).svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/eagle.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/goose.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/pigeon.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/profile_small2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/raven.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/turtle (1).svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/turtle (2).svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/turtle.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/img/vulture.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/js/all.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/layer/skin/default/loading-01.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/statistic chart/Turkey vultures.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/statistic chart/global-chart.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Apps/statistic chart/try.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -592,7 +735,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180882000" />
+    <option name="totallyTimeSpent" value="181300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -689,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3382">
@@ -732,13 +868,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" />
-    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/try.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/statistic chart/try.html" />
     <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -881,8 +1011,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="552" column="22" lean-forward="true" selection-start-line="552" selection-start-column="22" selection-end-line="552" selection-end-column="22" />
+        <state relative-caret-position="397">
+          <caret line="116" column="68" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="126" column="55" lean-forward="true" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
         </state>
       </provider>
     </entry>
