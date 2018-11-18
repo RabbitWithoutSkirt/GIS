@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="">
+    <list default="true" id="c611bd06-c8d8-497f-87b4-0bd742fd3190" name="Default Changelist" comment="video">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/Mergus merganser.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Mergus merganser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/Swainson's Hawks.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Swainson's Hawks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/Turkey vultures.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/Turkey vultures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/barnacle geese.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/barnacle geese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/red-backed shrike.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/red-backed shrike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/vidioJS/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/videoJS/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/vidioJS/shrike.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/videoJS/shrike.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/vidioJS/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/videoJS/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/vidioJS/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/videoJS/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/white-fronted goose.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/white-fronted goose.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,17 +117,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="18" />
+          <entry key="html" value="47" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="18" />
+          <entry key="HTML" value="47" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="22" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="4" />
           <entry key="png" value="3" />
@@ -124,19 +138,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="22" />
           <entry key="Image" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/Swainson's Hawks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/videoJS/video-js.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="996" column="47" selection-start-line="996" selection-start-column="47" selection-end-line="996" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="126" column="55" lean-forward="true" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
+            <state relative-caret-position="217">
+              <caret line="127" column="31" lean-forward="true" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -188,6 +235,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Moon &lt;1697978689@qq.com&gt;" />
         <option value="guanchen &lt;1026606223@qq.com&gt;" />
       </list>
     </option>
@@ -214,17 +262,12 @@
         <option value="$PROJECT_DIR$/Apps/white-fronted-goose.html" />
         <option value="$PROJECT_DIR$/Apps/Guide pages/button/css/base.css" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/lines3d-flights_wyc.html" />
-        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
-        <option value="$PROJECT_DIR$/Apps/Mergus merganser.html" />
-        <option value="$PROJECT_DIR$/Apps/white-fronted goose.html" />
-        <option value="$PROJECT_DIR$/Apps/barnacle geese.html" />
         <option value="$PROJECT_DIR$/Apps/echarts1/html/flights.json" />
         <option value="$PROJECT_DIR$/Apps/Swainson.html" />
         <option value="$PROJECT_DIR$/Apps/Guide pages/button/js/demo.js" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/hard-shelled-turtle.html" />
         <option value="$PROJECT_DIR$/Apps/Data/obama_budget_proposal_2012.list.json" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" />
-        <option value="$PROJECT_DIR$/Apps/Swainson's Hawks.html" />
         <option value="$PROJECT_DIR$/Apps/statistic chart/try.html" />
         <option value="$PROJECT_DIR$/Apps/hide/web-frame-template/js/frame.js" />
         <option value="$PROJECT_DIR$/Apps/statistic chart/mix-line-bar.html" />
@@ -235,9 +278,14 @@
         <option value="$PROJECT_DIR$/Apps/houtai/prj-admin/index.html" />
         <option value="$PROJECT_DIR$/Apps/TypeJS/index.js" />
         <option value="$PROJECT_DIR$/Apps/TypeJS/printer.js" />
-        <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
         <option value="$PROJECT_DIR$/Apps/main/prj-admin/index.html" />
         <option value="$PROJECT_DIR$/Apps/red-backed shrike.html" />
+        <option value="$PROJECT_DIR$/Apps/hard-shelled-turtle.html" />
+        <option value="$PROJECT_DIR$/Apps/Mergus merganser.html" />
+        <option value="$PROJECT_DIR$/Apps/Swainson's Hawks.html" />
+        <option value="$PROJECT_DIR$/Apps/Turkey vultures.html" />
+        <option value="$PROJECT_DIR$/Apps/white-fronted goose.html" />
+        <option value="$PROJECT_DIR$/Apps/barnacle geese.html" />
       </list>
     </option>
   </component>
@@ -321,20 +369,7 @@
               <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
               <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="prj-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cesium-1.50" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cesium-1.50" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="vidioJS" type="462c0819:PsiDirectoryNode" />
+              <item name="videoJS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,15 +394,15 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\fish\Cesium-1.50\Apps\vidioJS" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\TypeJS" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\statistic chart" />
       <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\Data" />
-      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\hide\web-frame-template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\桌面文件\大三上\专业课\GIS程序开发\课程设计\Cesium-1.50\Apps\echarts1" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -731,11 +766,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542451503902</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="video">
+      <created>1542524790047</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1542524790048</updated>
+    </task>
+    <task id="LOCAL-00023" summary="video">
+      <created>1542525332898</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1542525332898</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181300000" />
+    <option name="totallyTimeSpent" value="182588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -757,7 +806,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -783,16 +832,10 @@
     <MESSAGE value="all done" />
     <MESSAGE value="no vidios and Cesium's echarts" />
     <MESSAGE value="Frame done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frame done" />
+    <MESSAGE value="video" />
+    <option name="LAST_COMMIT_MESSAGE" value="video" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Apps/Guide pages/button/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="272" lean-forward="true" selection-start-line="272" selection-end-line="272" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/echarts1/html/css/t.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -825,31 +868,10 @@
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/page2.html" />
     <entry file="file://$PROJECT_DIR$/Apps/Dashio/css/style.css" />
     <entry file="file://$PROJECT_DIR$/Apps/Dashio/index.html" />
-    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="178" column="17" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -860,22 +882,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/Swainson's Hawks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/hide/web-frame-template/frame.html" />
     <entry file="file://$PROJECT_DIR$/Apps/statistic chart/try.html" />
-    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/main/prj-admin/js/plugins/noty/jquery.noty.packaged.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -971,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/statistic chart/shrike.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -1028,10 +1029,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/barnacle geese.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="128" column="40" lean-forward="true" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/hard-shelled-turtle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Mergus merganser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="129" column="52" selection-start-line="129" selection-start-column="52" selection-end-line="129" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Turkey vultures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="127" column="40" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/Swainson's Hawks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/white-fronted goose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/videoJS/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="996" column="47" selection-start-line="996" selection-start-column="47" selection-end-line="996" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/red-backed shrike.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="126" column="55" lean-forward="true" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
+        <state relative-caret-position="217">
+          <caret line="127" column="31" lean-forward="true" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
         </state>
       </provider>
     </entry>
